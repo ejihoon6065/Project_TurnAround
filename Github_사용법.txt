@@ -7,3 +7,8 @@ git checkout 브랜치명 : 해당 브랜치로 Header이동
 git checkout -b 생성할브랜치명 원격브랜치명 : 브랜치를 만들면서 브랜치추적
 
 *로컬브랜치명과 원격브랜치명을 같게 -> git checkout -t origin/YG 이렇게 하면, 원격저장소내 브랜치명과 동일하게 로컬브랜치가 생성됨.
+
+git pull origin 원격브랜치명 : 특정 원격브랜치를 pull
+
+git push origin 원격브랜치명 : 특정 원격브랜치에 push
+
