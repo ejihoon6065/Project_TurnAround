@@ -1,0 +1,52 @@
+# 빅터 서비스 (개인용 주식 포트폴리오 추천 어플리케이션 기사)
+https://m.etnews.com/20160908000332?obj=Tzo4OiJzdGRDbGFzcyI6Mjp7czo3OiJyZWZlcmVyIjtOO3M6NzoiZm9yd2FyZCI7czoxMzoid2ViIHRvIG1vYmlsZSI7fQ%3D%3D
+
+# 웹수집을 위한 scrapy 설치 및 파이썬 환경설정
+https://m.blog.naver.com/PostView.nhn?blogId=since201109&logNo=220861647660&targetKeyword=&targetRecommendationCode=1
+
+# 네이버 기사 크롤링하기 예제
+https://l0o02.github.io/2018/06/19/python-scrapy-1/
+https://excelsior-cjh.tistory.com/86
+
+# R 과 트위터 연동/ 데이터수집 예제
+https://m.blog.naver.com/since201109/220521335361
+
+# R 4.0.0 -> 가장 최신버전(2020.08.03기준 4.0.2)으로 업그레이드 하는 방법  // s
+https://needjarvis.tistory.com/535
+
+# R을 이용하여 twitter data 가져오기   //
+https://rpubs.com/baekdata/TAR
+
+# R에서 HDFS 데이터 사용하기
+https://m.blog.naver.com/PostView.nhn?blogId=hanajava&logNo=220920000645&proxyReferer=https:%2F%2Fwww.google.com%2F
+
+# R과 하둡을 스트리밍으로 연결해 사용하는 방법
+http://www.dbguide.net/db.db?cmd=view&boardUid=187501&boardConfigUid=9&categoryUid=216&boardIdx=162&boardStep=1
+
+# 웹클릭 데이터를 하둡으로 분석하는 방법
+http://asdtech.co/blog/%ED%95%9C%EA%B5%AD%EC%96%B4-%EC%9B%B9%ED%81%B4%EB%A6%AD-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC-%ED%95%98%EB%91%A1%EC%9C%BC%EB%A1%9C-%EB%B6%84%EC%84%9D%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-processing/?lang=kr
+
+
+# 하둡기반 크롤링 시스템 구축
+http://blog.daum.net/techtip/12292197
+
+# R에서 형태소분석기 및 워드클라우드 사용하기
+https://m.blog.naver.com/since201109/220520253397
+
+# R 을 활용한 데이터 크롤링 예제
+https://mrchypark.github.io/djk-collect-data-with-r/#1
+
+# SNS분석 (SNS와 블로그에서 60일간 데이터를 수집한 후, 특정 브랜드가 다른 브랜드와 함께 언급된 빈도를 계산했습니다.)
+https://blog.lgcns.com/1305
+
+# 종목 코드 및 한글 종목명 가져오기
+https://wikidocs.net/4244
+
+# Hadoop Map/Reduce 이용하여 mySql 데이터 읽어오기 샘플
+https://m.blog.naver.com/PostView.nhn?blogId=beabeak&logNo=50142980868&proxyReferer=https:%2F%2Fwww.google.com%2F
+
+# 하둡 설치 
+https://corock.tistory.com/336?category=727447
+
+# SNS 크롤링 시스템 구축 논문
+https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO201834663385168
