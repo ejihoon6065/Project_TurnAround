@@ -1,0 +1,22 @@
+월별 유튜브 트래픽 데이터
+ 주요 엔터사 채널 유튜브 조회 수(모든 컨텐츠 Sum값)
+Top10 Artist별, 동남아시아 각 나라별 유튜브 조회수
+스포티파이 Listener 전세계 국가 분포율 (Listenr/해당 국가 인구수)
+Top10 Artist별, 동남아시아 각 나라별 스포티파이 Listener수
+전세계 아티스트 MV 조회수 순위
+
+
+<Metrics : 측정 항목>
+Metrics are individual measurements of user activity, ad performance, or estimated revenue. 
+User activity metrics include things like video view counts and ratings (likes and dislikes).
+
+측정 항목은 사용자 활동, 광고 실적 또는 예상 수익에 대한 개별 측정입니다.
+사용자 활동 측정 항목에는 동영상 조회수 및 평가 (좋아요 및 싫어요)와 같은 항목이 포함됩니다.
+
+
+<Dimensions : 측정기준>
+Dimensions are common criteria that are used to aggregate data, such as the date on which user activity occurred or the country where users were located.
+
+측정 기준은 사용자 활동이 발생한 날짜 또는 사용자가 위치한 국가와 같은 데이터를 집계하는 데 사용되는 일반적인 기준입니다.
+
+

@@ -1,0 +1,10 @@
+시각화 도구 : tableau
+유튜브 지표 : 
+charts.youtube.com   (유튜브내)
+https://socialblade.com/youtube/channel/UC3-FNTrGa2NRc2JyC4Ry0Ng/monthly   (차트매트릭)
+https://www.utoo.be/   (유튜비)
+chartmetric (차트매트릭)
+
+
+음원지표 : 
+https://community.spotify.com/t5/Spotify-for-Developers/bd-p/Spotify_Developer   (스포티파이) 
