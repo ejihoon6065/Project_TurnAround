@@ -4,6 +4,8 @@ git branch -a : 브랜치리스트 모두 보기
 
 git checkout 브랜치명 : 해당 브랜치로 Header이동
 
+*git checkout 원격브랜치명 -> 자동으로 원격브랜치명과 같은 로컬브랜치가 생성됨
+
 git checkout -b 생성할브랜치명 원격브랜치명 : 브랜치를 만들면서 브랜치추적
 
 *로컬브랜치명과 원격브랜치명을 같게 -> git checkout -t origin/YG 이렇게 하면, 원격저장소내 브랜치명과 동일하게 로컬브랜치가 생성됨.
