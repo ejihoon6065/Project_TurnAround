@@ -47,4 +47,7 @@ def mydtw (x1, x2, window_size):
     
     result = { 'distanceMatrix' : dvalue, 'distance' : distance, 'normalizedDistance' : normalizedDistance }
     return result
+
+
+
 [출처] DTW(Dynamic Time Wrapping) 방법에 대해 알아봅시다(R, Python 코드 첨부)|작성자 plastic code
