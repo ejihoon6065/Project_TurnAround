@@ -24,11 +24,11 @@ set.seed(123)
 
 df<-read.csv("C:\\Users\\user\\Project_cslee_sj\\Project_TurnAround\\YG엔터주분석\\YG주가_2013_.csv",fileEncoding='UCS-2LE')
 summary(df)
-
+df
 print(length(df$종가))  # 1880
 
 df$날짜=as.POSIXlt(df$날짜,format = "%Y-%m-%d")  # df의 날짜속성(character형)을 datetime으로 바꾸어줌
-  
+summary(df)
 '''
 par(mfrow=c(1,1))
 df$날짜 <- as.Date(df$날짜, "%Y-%m-%d")
@@ -109,3 +109,28 @@ adf.test(diff(log(df_st)), k=9)
 
 auto.arima(diff(log(df_st)))
 
+auto.arima(df_st)
+
+
+# 주가 시계열 자료의 적절한 모델을 ARIMA(1.0.1)모델에 FITTING(보정)
+df_st.arima<-arima(diff(log(df_st)),order=c(1,0,1))
+df_st.arima
+
+# Fitting후, forecast()함수를 이용해 미래 예측
+df_st.forecasts<-forecast(df_st.arima)
+df_st.forecasts
+
+plot(df_st.forecasts)
+
+df_ts<-ts(df)
+
+# 그냥 원본으로 autoarima 수행
+auto.arima(df_st)
+df_st_origin.arima<-arima(df_st,order=c(3,1,1))
+df_st_origin.arima
+
+# Fitting후, forecast()함수를 이용해 미래 예측
+df_st_origin.forecasts<-forecast(df_st_origin.arima)  # default=10, h=예측하고싶은 개수 로 옵션을 맞추면 됌
+df_st_origin.forecasts
+
+plot(df_st_origin.forecasts)

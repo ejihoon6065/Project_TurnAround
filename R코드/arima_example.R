@@ -5,6 +5,8 @@ library(tseries)
 library(forecast)
 library(TTR)
 
+#https://stat-and-news-by-daragon9.tistory.com/47
+
 king <- scan("https://robjhyndman.com/tsdldata/misc/kings.dat",skip=3)  # 1차원 데이터
 print(class(king))
 
