@@ -1,0 +1,37 @@
+<참고자료>
+#### 베이스라인 코드 : 퀀티랩 Github
+https://github.com/quantylab/rltrader
+
+# How to study Reinforcement Learning
+https://github.com/reinforcement-learning-kr/how_to_study_rl/
+
+# RLCode와 A3C 쉽고 깊게 이해하기
+https://www.slideshare.net/WoongwonLee/rlcode-a3c
+
+<train 인자 예시>
+--stock_code 005380 --rl_method a2c --net lstm --learning --num_steps 5 --output_name c_005380 --num_epoches 100 --lr 0.001 --start_epsilon 1 --discount_factor 0.9
+
+<test 인자 예시>
+--stock_code 005380 --rl_method a2c --net lstm --num_steps 5 --output_name c_005380 --num_epoches 1 --lr 0.001 --start_epsilon 0 --discount_factor 0.9 --value_network_name a2c_lstm_value_c_005380 --policy_network_name a2c_lstm_policy_c_005380 --reuse_models --start_date 20190101 --end_date 20191231
+
+
+<코드에서 개선이 필요한 부분(+custormization)>
+
+1) 타임 프레임 변경
+현재 타임 프레임 1일
+학습이 끝나고 백테스팅이 아닌 실제 테스트에서, 
+내일의 액션을 도출하기 위해 미래 참조가 없는 데이터(과거 학습 데이터 + 학습에 사용하지 않은 현재 데이터)를 사용함.
+-> 더 긴 기간의 미래 액션 도출을 원함 (ex. 미래 1주, 1달, 1년의 액션)
+-> 지금 모델도 가능은 하지만, 정확한 결과를 얻으려면, 타임 프레임을 1일에서 1주일, 1달 이런 식으로 바꿔서 학습해야 함.
+
+2) 관망 액션에 대한 다른 접근
+현재는 매도/매수 액션의 유효성이 존재하지 않을 때만, 관망 액션을 도출함 
+정책신경망 출력 : 매수/매도 시 PF 가치를 높일 확률
+가치신경망 출력 : 행동에 대한 예측 가치(손익률)
+-> 유효성도 고려하되, 신경망 출력에 관망을 추가할 수 있음
+
+3) 종목별 데이터 전처리 + feature 추가 및 선택
+
+4) 알고리즘 및 아키텍쳐, 하이퍼 파라미터 튜닝
+-> epoch, 초기 탐험률, 지연 보상 임계치, learning rate, 할인률, 
+초기 자본금, 최소/최대 투자 단위, 최대 매매 횟수, 신경망 하이퍼 파라미터, 보상규칙 등
