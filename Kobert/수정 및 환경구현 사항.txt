@@ -1,0 +1,14 @@
+visual studio에서 프로그램 별도로 설치
+
+https://visualstudio.microsoft.com/ko/vs/older-downloads/
+
+
+
+자바설치
+
+https://jhnyang.tistory.com/224
+
+
+No module named 'torchcrf'
+
+-> 임포트 대소문자 구분
