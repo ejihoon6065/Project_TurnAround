@@ -5,3 +5,4 @@
 20201002 | Komran => VADER |  흠.. 역시나 번역이 안되네.. 다른 걸 찾아보겠다. | 글을 번역하던지 or lexicon.txt를 한글판으로 수정하던지 둘중에하나 
 20201004 | Arima-뉴스 논문을 참고 장중 뉴스 등락률에 따른 감성사전 구현과정| | 감성사전을 구축하여 VADER lexicon.txt를 수정 할 수 있다면 완벽
 20201004 | vaderSentiment 의 lexicon file을 한글화 | yg neg news로 시험결과 neu가 많이 나옴, neg인데 pos로 나오는경우도 발생 | TF(TF-IDF)기반 장중 등락률 기준 감성사전을 합쳐봐야함 TF-IDF가 맞는지? 고민해보아야함 문서군내 Unique한 단어가 단순히 많이 등장한 단어보다 많은 가중치를 받는데 그게 중요하다고 볼 수 있는지 ? 그냥 둘다 해보면됨.
+20201005| News data, Kospi data or stock data 수집 || 크롤링 후 도메인에 맞는 감성 사전 구축을 해야함. 
