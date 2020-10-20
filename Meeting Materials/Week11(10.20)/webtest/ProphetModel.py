@@ -20,6 +20,7 @@ from workalendar.asia import SouthKorea # 한국의 공휴일
 import random # 시드 제어
 
 import talib as ta # 기술적 분석 (보조지표)
+from workalendar.asia import SouthKorea
 
 from pycaret.regression import * # AutoML pycaret
 from pycaret.classification import * # AutoML pycaret
@@ -76,7 +77,7 @@ class Prophet_:
                              changepoint_prior_scale=0.15,
                              changepoint_range=0.9
                              )
-        print("h")
+
         self.model = self.prop_model
         self.model.add_country_holidays(country_name='KR')
         self.model.fit(self.data)
@@ -120,210 +121,134 @@ class Prophet_:
 
         # 실제값
         self.actual_value = float(self.data[self.data['ds'] == self.data.iloc[-1].ds]['y'])
-        print(self.actual_value)
         # 예측값
         self.predict_value = float(self.forecast[self.forecast['ds'] == self.date]['yhat'])
-        print(self.predict_value)
-
         if self.actual_value < self.predict_value:
-            print("actual_value : ", self.actual_value, ", predict_value : ", self.predict_value, ", 주가 상승 예상 -> 매수")
             return '1'
         else:
-            print("actual_value : ", self.actual_value, ", predict_value : ", self.predict_value, ", 주가 하락 예상 -> 매도")
             return '0'
 
 
-
-
-
-
-"""
-# # 2) YG
-
-# In[42]:
-
-
-model_yg.describe()
-
-
-# In[43]:
-
-
-df=copy.deepcopy(model_yg)
-
-
-# In[44]:
-
-
-#df.date = df.date.astype(str)
-#df.date = df.date.str[:4] + '-' + df.date.str[4:6] + '-' + df.date.str[6:]
-df['date'] = pd.to_datetime(df.index)
-
-data = df[['date', 'Close']].reset_index(drop=True)
-
-data = data.rename(columns={'date': 'ds', 'Close': 'y'})
-
-data.head()
-
-
-# In[45]:
-
-
-# 데이터의 추이 파악
-data.plot(x='ds', y='y', figsize=(16, 8))
-
-
-# In[75]:
-
-
-# cp=['2019-10-23', '2019-11-04', '2019-11-13', '2019-11-22', '2019-12-04', '2019-12-13', '2019-12-26', '2020-01-08', '2020-01-17', '2020-01-31', '2020-02-11', '2020-02-20', '2020-03-03', '2020-03-12', '2020-03-23', '2020-04-02', '2020-04-13', '2020-04-23', '2020-05-08', '2020-05-19', '2020-05-29', '2020-06-09', '2020-06-18', '2020-06-30', '2020-07-09']
-
-cp_spc=['2020-08-11',
- '2020-08-12',
- '2020-08-13',
- '2020-08-18',
- '2020-08-19',
- '2020-08-20',
- '2020-08-26',
- '2020-08-28',
- '2020-08-31',
- '2020-09-02',
- '2020-09-03',
- '2020-09-07',
- '2020-09-08']
-
-cp_default=['2018-10-29',
-    '2018-11-19',
-    '2018-12-11',
-    '2019-01-04',
-    '2019-01-29',
-    '2019-02-22',
-   '2019-03-19',
-   '2019-04-10',
-   '2019-05-03',
-   '2019-05-27',
-   '2019-06-19',
-   '2019-07-10',
-   '2019-08-01',
-   '2019-08-26',
-   '2019-09-20',
-   '2019-10-15',
-   '2019-11-07',
-   '2019-11-29',
-   '2019-12-26',
-   '2020-01-20',
-   '2020-02-13',
-   '2020-03-05',
-   '2020-03-30',
-   '2020-04-21',
-   '2020-05-18']
-cp=cp_default+cp_spc
-cp
-
-
-# In[76]:
-
-
-from fbprophet import Prophet
-from workalendar.asia import SouthKorea
-
-
-#     growth='linear',
-#     #changepoints=cp_1,
-#     #n_changepoints=25,
-#     changepoint_range=0.95,
-#     yearly_seasonality='auto',
-#     weekly_seasonality='auto',
-#     daily_seasonality='auto',
-#     holidays=None,
-#     seasonality_mode='additive',
-#     seasonality_prior_scale=10.0,
-#     holidays_prior_scale=10.0,
-#     changepoint_prior_scale=0.05,
-#     mcmc_samples=0,
-#     interval_width=0.8,
-#     uncertainty_samples=1000,
-#     stan_backend=None,
-
-m = Prophet(yearly_seasonality='auto',
-     weekly_seasonality='auto',
-     daily_seasonality='auto',
-     changepoints=cp
-     changepoint_range=0.8,
-     changepoint_prior_scale=0.1
-     )
-m.fit(data)
-pred_days=int(input('How many days do you want to predict?'))
-kor_holidays = pd.concat([pd.Series(np.array(SouthKorea().holidays(2019))[:, 0]), pd.Series(np.array(SouthKorea().holidays(2020))[:, 0])]).reset_index(drop=True)
-future = m.make_future_dataframe(periods=pred_days)
-
-future = future[future.ds.dt.weekday != 5]
-future = future[future.ds.dt.weekday != 6]
-for kor_holiday in kor_holidays:
-    future = future[future.ds != kor_holiday]
-    
-future.tail()
-forecast = m.predict(future)
-
-
-# In[77]:
-
-
-forecast[ [ 'ds', 'yhat', 'yhat_lower', 'yhat_upper' ] ].tail(pred_days)
-
-
-# In[78]:
-
-
-m.plot(forecast)
-
-
-# In[79]:
-
-
-m.plot_components( forecast)
-
-
-# In[80]:
-
-
-figure = m.plot(forecast)
-for changepoint in m.changepoints:
-    plt.axvline(changepoint,ls='--', lw=1)
-figure.legend(loc=2)
-
-
-# In[81]:
-
-
-print(m.changepoints)
-
-
-# In[72]:
-
-
-# 예측한 값만 표로 보기
-pred=forecast.tail(pred_days)
-pred
-
-
-# In[ ]:
-
-
-# plt.rc('font', family='NanumBarunGothic') 
-
-# fig = plt.figure(figsize=(15,12))
-# ax1 = fig.add_subplot(211)
-# ax1.plot(y['종가'],label='Y')
-# ax1.plot(pred['yhat'],color='red',label='Yhat')
-# ax1.plot(pred['yhat_lower'],color='green',label='Yhat_Lower')
-# ax1.plot(pred['yhat_upper'],color='green',label='Yhat_Upper')
-# ax1.set_xlabel('Date')
-# ax1.set_ylabel('Y')
-# ax1.legend(loc='best')
-# plt.show
-
-
-# 
-
-"""
+    def prophet_yg(self, model_yg):
+        # # 2) YG
+        self.model_yg = model_yg
+        self.df=copy.deepcopy(self.model_yg)
+        self.df['date'] = pd.to_datetime(self.df.index)
+        self.data = self.df[['date', 'Close']].reset_index(drop=True)
+        self.data = self.data.rename(columns={'date': 'ds', 'Close': 'y'})
+
+        # 데이터의 추이 파악
+        #self.data.plot(x='ds', y='y', figsize=(16, 8))
+        # cp=['2019-10-23', '2019-11-04', '2019-11-13', '2019-11-22', '2019-12-04', '2019-12-13', '2019-12-26', '2020-01-08', '2020-01-17', '2020-01-31', '2020-02-11', '2020-02-20', '2020-03-03', '2020-03-12', '2020-03-23', '2020-04-02', '2020-04-13', '2020-04-23', '2020-05-08', '2020-05-19', '2020-05-29', '2020-06-09', '2020-06-18', '2020-06-30', '2020-07-09']
+        self.cp_spc=['2020-08-11',
+         '2020-08-12',
+         '2020-08-13',
+         '2020-08-18',
+         '2020-08-19',
+         '2020-08-20',
+         '2020-08-26',
+         '2020-08-28',
+         '2020-08-31',
+         '2020-09-02',
+         '2020-09-03',
+         '2020-09-07',
+         '2020-09-08']
+
+        self.cp_default=['2018-10-29',
+            '2018-11-19',
+            '2018-12-11',
+            '2019-01-04',
+            '2019-01-29',
+            '2019-02-22',
+           '2019-03-19',
+           '2019-04-10',
+           '2019-05-03',
+           '2019-05-27',
+           '2019-06-19',
+           '2019-07-10',
+           '2019-08-01',
+           '2019-08-26',
+           '2019-09-20',
+           '2019-10-15',
+           '2019-11-07',
+           '2019-11-29',
+           '2019-12-26',
+           '2020-01-20',
+           '2020-02-13',
+           '2020-03-05',
+           '2020-03-30',
+           '2020-04-21',
+           '2020-05-18']
+        self.cp=self.cp_default+self.cp_spc
+
+        # 하이퍼 파라미터
+        #     growth='linear',
+        #     #changepoints=cp_1,
+        #     #n_changepoints=25,
+        #     changepoint_range=0.95,
+        #     yearly_seasonality='auto',
+        #     weekly_seasonality='auto',
+        #     daily_seasonality='auto',
+        #     holidays=None,
+        #     seasonality_mode='additive',
+        #     seasonality_prior_scale=10.0,
+        #     holidays_prior_scale=10.0,
+        #     changepoint_prior_scale=0.05,
+        #     mcmc_samples=0,
+        #     interval_width=0.8,
+        #     uncertainty_samples=1000,
+        #     stan_backend=None,
+
+        self.m = Prophet(yearly_seasonality='auto',
+             weekly_seasonality='auto',
+             daily_seasonality='auto',
+             changepoints=self.cp,
+             changepoint_range=0.8,
+             changepoint_prior_scale=0.1
+             )
+        self.m.fit(self.data)
+        self.kor_holidays = pd.concat([pd.Series(np.array(SouthKorea().holidays(2019))[:, 0]), pd.Series(np.array(SouthKorea().holidays(2020))[:, 0])]).reset_index(drop=True)
+        self.future = self.m.make_future_dataframe(periods=self.pred_days)
+
+        self.future = self.future[self.future.ds.dt.weekday != 5]
+        self.future = self.future[self.future.ds.dt.weekday != 6]
+        for self.kor_holiday in self.kor_holidays:
+            self.future = self.future[self.future.ds != self.kor_holiday]
+
+        self.forecast = self.m.predict(self.future)
+        self.forecast[ [ 'ds', 'yhat', 'yhat_lower', 'yhat_upper' ] ].tail(self.pred_days)
+
+        #self.m.plot(self.forecast)
+        #self.m.plot_components(self.forecast)
+
+        #self.figure = self.m.plot(self.forecast)
+        #for changepoint in self.m.changepoints:
+        #    plt.axvline(changepoint,ls='--', lw=1)
+        #self.figure.legend(loc=2)
+        #print(self.m.changepoints)
+
+        # 예측한 값만 표로 보기
+        #self.pred=self.forecast.tail(self.pred_days)
+        #self.pred
+
+        # plt.rc('font', family='NanumBarunGothic')
+
+        # fig = plt.figure(figsize=(15,12))
+        # ax1 = fig.add_subplot(211)
+        # ax1.plot(y['종가'],label='Y')
+        # ax1.plot(pred['yhat'],color='red',label='Yhat')
+        # ax1.plot(pred['yhat_lower'],color='green',label='Yhat_Lower')
+        # ax1.plot(pred['yhat_upper'],color='green',label='Yhat_Upper')
+        # ax1.set_xlabel('Date')
+        # ax1.set_ylabel('Y')
+        # ax1.legend(loc='best')
+        # plt.show
+
+        # 실제값
+        self.actual_value = float(self.data[self.data['ds'] == self.data.iloc[-1].ds]['y'])
+        # 예측값
+        self.predict_value = float(self.forecast[self.forecast['ds'] == self.date]['yhat'])
+        if self.actual_value < self.predict_value:
+            return '1'
+        else:
+            return '0'

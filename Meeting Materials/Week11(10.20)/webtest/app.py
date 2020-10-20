@@ -32,8 +32,8 @@ def run():
     # 사용자 설정
     if add_selectbox == 'Online':
         date = str(st.number_input('Date', min_value=20200101, max_value=20201231, value=20201006))
-        target = st.selectbox('target', ['KOSPI', 'YG'])
-        method = st.selectbox('method', ['AutoML', 'ARIMA', 'Prophet', 'RL', 'NLP'])
+        target = st.selectbox('Target', ['KOSPI', 'YG'])
+        method = st.selectbox('Method', ['AutoML', 'ARIMA', 'Prophet', 'RL', 'NLP'])
 
         output = ""
 
@@ -51,22 +51,31 @@ def run():
                 print("prophet")
         else:
             input_df = input_.yg_collection()
+            if method == 'AutoML':
+                model = load_model('deployment_yg_20201020')
 
         # 주가 예측
         if st.button("주가 예측"):
             if method == 'AutoML':
                 output = predict(model=model, input_df=input_df[1])
                 if output == '1':
-                    output = date + "주가 상승 예상 -> 매수"
+                    output = date + "주가 상승 예상 -> 매매 어드바이스 : 매수"
                 else:
-                    output = date + "주가 하락 예상 -> 매도"
+                    output = date + "주가 하락 예상 -> 매매 어드바이스 : 매도"
 
             elif method == 'Prophet':
-                output = prophet_input_.prophet_kospi(input_df[0])
-                if output == '1':
-                    output = date + "주가 상승 예상 -> 매수"
+                if target == 'KOSPI':
+                    output = prophet_input_.prophet_kospi(input_df[0])
+                    if output == '1':
+                        output = date + "주가 상승 예상 -> 매매 어드바이스 : 매수"
+                    else:
+                        output = date + "주가 하락 예상 -> 매매 어드바이스 : 매도"
                 else:
-                    output = date + "주가 하락 예상 -> 매도"
+                    output = prophet_input_.prophet_yg(input_df[0])
+                    if output == '1':
+                        output = date + "주가 상승 예상 -> 매매 어드바이스 : 매수"
+                    else:
+                        output = date + "주가 하락 예상 -> 매매 어드바이스 : 매도"
 
         st.success(output)
 

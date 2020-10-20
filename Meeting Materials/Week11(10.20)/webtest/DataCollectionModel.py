@@ -699,9 +699,9 @@ class DataCollection:
 
         # 2) 볼린저밴드 (주가의 이동평균선을 중심으로 표준편차 범위를 표시)
         self.ubb, self.mbb, self.lbb = ta.BBANDS(self.model_yg.Close, 20, 2)
-        self.model_yg['ubb'] = ubb
-        self.model_yg['mbb'] = mbb
-        self.model_yg['lbb'] = lbb
+        self.model_yg['ubb'] = self.ubb
+        self.model_yg['mbb'] = self.mbb
+        self.model_yg['lbb'] = self.lbb
 
         # 3) MACD 이동평균수렴확산 (단기(EMA12)와 장기(EMA26) EMA로 모멘텀을 추정)
         self.macd, self.macdsignal9, self.macdhist = ta.MACD(self.model_yg.Close, fastperiod=12, slowperiod=26, signalperiod=9)
