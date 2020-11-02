@@ -95,7 +95,6 @@ pip install Keras=2.2.4
 ```
 
 ## 7) Natural Language Processing
-[ReadMe.md](https://github.com/ejihoon6065/Project_TurnAround/blob/master/NLP/ReadMe.md)에서 자세한 설치 방법 확인
 <p>
 <p align="Left">
     <a href="https://github.com/ejihoon6065/Project_TurnAround/blob/master/NLP/ReadMe.md">  
