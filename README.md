@@ -155,7 +155,7 @@ streamlit run app.py
 - 데이터를 자동으로 수집하기 때문에, 데이터를 수집하는 시간이 필요합니다.
 - 데이터가 수집되고 난 후에, 예측하고 싶은 Date, Target, Method을 입력합니다.
 <p align="left">
-    <img src="https://github.com/ejihoon6065/Project_TurnAround/blob/master/image/tutorial_1.PNG" height="300px" width="500px">
+    <img src="https://github.com/ejihoon6065/Project_TurnAround/blob/master/image/tutorial_1.PNG" height="300px" width="700px">
 </p>
 - 분석 모델(또는 미리 학습된 모델)이 학습을 통해 분석 및 예측 결과를 도출합니다.
 
