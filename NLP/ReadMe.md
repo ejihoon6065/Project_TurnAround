@@ -1,4 +1,4 @@
-# 1) konlpy 설치
+# 1) KONLPY 설치
 
 ## JAVA 설치
 ``` python
@@ -20,7 +20,7 @@
 ```
 
 
-# 2) mecab 설치
+# 2) Mecab 설치
 
 1. mecab-ko-msvc 설치하기 (‘C 기반으로 만들어진 mecab’이 윈도우에서 실행될 수 있도록 하는 역할)
 ``` python
