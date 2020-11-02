@@ -118,11 +118,11 @@ pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 
 ## Feature Description
 All features of the data are described below : <p>
-<p align="Right">
+<p align="left">
     <a href="https://github.com/ejihoon6065/Project_TurnAround/blob/master/ReadMe_Data.md">  
         <img alt="Contributor Covenant" src="https://img.shields.io/badge/NLP%40-Mecab%40-ff69b4.svg">
     </a>에서 자세한 설치 방법 확인
-</p>(https://github.com/ejihoon6065/Project_TurnAround/blob/master/ReadMe_Data.md)
+</p>
 ## 정형 데이터 (코스피 예측 모델)
 1) 차트 데이터
 2) 투자지표
