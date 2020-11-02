@@ -114,22 +114,26 @@ pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 ## 1) Data Collection Module
 
 ## Data Sources
-정형 데이터 : [YahooFinance](https://finance.yahoo.com/), [investing.com](https://www.investing.com/), [krx](http://www.krx.co.kr/main/main.jsp)
-비정형 데이터 : [한국경제신문](https://www.hankyung.com/)
+- 정형 데이터 : [YahooFinance](https://finance.yahoo.com/), [investing.com](https://www.investing.com/), [krx](http://www.krx.co.kr/main/main.jsp)
+- 비정형 데이터 : [한국경제신문](https://www.hankyung.com/)
 
-data format : 정형/비정형
-## (1) 정형 데이터
-차트 데이터
-| 지표명     | 표현         |
-|------------|--------------|
-| 년/월/일   | Date         |
-| 시가       | Open         |
-| 고가       | High         |
-| 저가       | Low          |
-| 종가       | Close        |
-| 거래량     | Volume       |
+## Data Format
+## 정형 데이터 (코스피)
+## 1) 차트 데이터
+| 지표명                        | 표현                    |
+|-------------------------------|-------------------------|
+| 코스피 기관 공매도 거래량     | kospi_inst_volume       |
+| 코스피 개인 공매도 거래량     | kospi_indi_volume       |
+| 코스피 외국인 공매도 거래량   | kospi_fore_volume       |
+| 코스피 기타 공매도 거래량     | kospi_etc_volume        |
+| 코스피 공매도 거래량 합계     | kospi_short_sell_volume |
+| 코스피 기관 공매도 거래대금   | kospi_inst_value        |
+| 코스피 개인 공매도 거래대금   | kospi_indi_value        |
+| 코스피 외국인 공매도 거래대금 | kospi_fore_value        |
+| 코스피 기타 공매도 거래대금   | kospi_etc_value         |
+| 코스피 공매도 거래대금 합계   | kospi_short_sell_value  |
 
-투자지표
+## 2) 투자지표
 
 
 ## 2) Data Analysis Module
