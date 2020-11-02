@@ -180,6 +180,41 @@ pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 | 미국 천연가스 시세 종가  | natural_gas_Close       |
 | 미국 난방유 시세 종가    | heating_oil_Close       |
 
+## 5) 금리 데이터
+| 지표명                            | 표현               |
+|-----------------------------------|--------------------|
+| 미국 국채 수익률 (13주) 종가      | treasury_13w_Close |
+| 미국 국채 수익률 (5년) 종가       | treasury_5y_Close  |
+| 미국 국채 수익률 (10년) 종가      | treasury_10y_Close |
+| 미국 국채 수익률 (30년) 종가      | treasury_30y_Close |
+| 한국 채권수익률 (지표수익률) 3년  | treasury_krx_3y    |
+| 한국 채권수익률 (지표수익률) 5년  | treasury_krx_5y    |
+| 한국 채권수익률 (지표수익률) 10년 | treasury_krx_10y   |
+| 한국 채권수익률 (지표수익률) 20년 | treasury_krx_20y   |
+| 한국 채권수익률 (지표수익률) 30년 | treasury_krx_30y   |
+
+## 6) 글로벌 주가지수
+| 지수명(지표명)        | 표현               |
+|-----------------------|--------------------|
+| Vix 종가              | vix_Close          |
+| KOSPI Volatility 종가 | vkospi_Close       |
+| Bitcoin USD 종가      | bitcoin_Close      |
+| S&P 500 종가          | snp_500_Close      |
+| Dow Jones 종가        | dow_jones_Close    |
+| NASDAQ 종가           | nasdaq_Close       |
+| NYSE 종가             | nyse_Close         |
+| AMEX 종가             | amex_Close         |
+| Russell 2000 종가     | russell_2000_Close |
+| DAX 종가              | dax_Close          |
+| Nikkei 225 종가       | nikkei_225_Close   |
+| HANG SENG 종가        | hang_seng_Close    |
+| SSE 종가              | sse_Close          |
+| ESTX 50 종가          | estx_50_Close      |
+| EURONEXT 100 종가     | euronext_100_Close |
+
+## 정형 데이터 (와이지엔터테인먼트종목 주가 예측 모델)
+## 1) 차트 데이터
+
 ## 2) Data Analysis Module
 Prophet, AutoML, Natural Language Processing, Reinforcement Learning
 ## 3) Run Module
