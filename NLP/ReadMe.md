@@ -1,4 +1,4 @@
-# 1) KONLPY 설치
+# 1) Konlpy 설치
 
 ## JAVA 설치
 ``` python
