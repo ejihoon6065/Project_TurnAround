@@ -46,7 +46,8 @@
 ```
 
 2. mecab-ko-dic-msvc.zip 기본 사전 설치하기
- 2-1. https://github.com/Pusnow/mecab-ko-dic-msvc/releases/tag/mecab-ko-dic-2.1.1-20180720-msvc
+``` python
+2-1. https://github.com/Pusnow/mecab-ko-dic-msvc/releases/tag/mecab-ko-dic-2.1.1-20180720-msvc
 
  2-2. 
 사전 다운로드 ‘mecab-ko-dic-msvc.zip’
@@ -56,9 +57,9 @@
 
 * mecab 하위 폴더에 대강 파일들이 존재해야 함
  
-
+```
 3. python wheel 설치하기
-
+``` python
  3-1. 링크 클릭
 https://github.com/Pusnow/mecab-python-msvc/releases/tag/mecab_python-0.996_ko_0.9.2_msvc-2
 
@@ -76,22 +77,10 @@ python 사용자의 경우 cmd창에서 site-package 폴더로 이동하여
 ‘pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl’
  pip install 다운로드받은파일명.whl’
  입력하여 설치 완료
+```
 
 4. mecab 오류 발생 시
 
 참조 : https://www.microsoft.com/ko-kr/download/details.aspx?id=48145
 
 
-
-``` python
->>> from transformers import pipeline
-
-# Allocate a pipeline for question-answering
->>> question_answerer = pipeline('question-answering')
->>> question_answerer({
-...     'question': 'What is the name of the repository ?',
-...     'context': 'Pipeline have been included in the huggingface/transformers repository'
-... })
-{'score': 0.5135612454720828, 'start': 35, 'end': 59, 'answer': 'huggingface/transformers'}
-
-```
