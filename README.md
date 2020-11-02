@@ -63,17 +63,42 @@ pip install pykrx
 ```bash
 pip install ta-lib
 ```
-[pip](https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib)에서 버전에 맞는 파일을 다운로드해서 아래와 같이 설치함
+설치에 실패할 경우에는, [link](https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib)에서 버전에 맞는 파일을 다운로드해서 아래와 같이 설치함
 - Ex) python 3.7/64비트 버전 사용시
 ```bash
 pip install TA Lib‑0.4.19‑cp37‑cp37m‑win_amd64.whl
 ```
 
-## 4. NLP
-[환경설정 안내](https://github.com/ejihoon6065/Project_TurnAround/tree/master/NLP)
+## 4. Prophet
+Prophet 설치
+```bash
+conda install -c conda-forge fbprophet
+pip install pystan
+pip install prophet
+pip install fbprophet
+```
 
-## Usage
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+## 5. AutoML
+pycaret 설치
+```bash
+pip install pycaret
+```
+
+## 6. Reinforcement Learning
+- Anaconda 3.7+
+TensorFlow 1.15.2 설치
+```bash
+pip install tensorflow==1.15.2
+```
+
+
+Keras 2.2.4 설치
+```bash
+pip install Keras=2.2.4
+```
+
+## 7. Natural Language Processing
+[NLP.md](https://pip.pypa.io/en/stable/)에서 설치 방법 확인
 
 ```python
 import foobar
@@ -84,9 +109,7 @@ foobar.singularize('phenomena') # returns 'phenomenon'
 ```
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+씨에스리 실용 중심 AI 개발자 양성 과정 산학프로젝트
 
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Reference
+강화학습 모델 [QuantyLab](https://github.com/quantylab/rltrader)
