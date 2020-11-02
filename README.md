@@ -3,6 +3,12 @@
 - 멘토 : 정좌연🗽 PE 
 - 멘티 : 이지훈👤, 김서정✌, 구병진🎶, 강민재😁, 이문형😎
 
+# 모델 구성
+- 데이터 수집 모듈 : [app.py](https://github.com/quantylab/rltrader)
+- 데이터 분석 모듈 : [app.py](https://github.com/quantylab/rltrader)
+- 실행 모듈 : [app.py](https://github.com/quantylab/rltrader)
+
+
 # 환경설정
 가상환경에서 설치하는 것을 권장함( 가상환경 설치방법 : conda create -n [원하는 가상환경이름] )
 - OS : Windows 10 x64
