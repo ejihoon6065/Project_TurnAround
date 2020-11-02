@@ -102,16 +102,8 @@ pip install Keras=2.2.4
 ## 7. Natural Language Processing
 [NLP.md](https://github.com/ejihoon6065/Project_TurnAround/blob/master/NLP/ReadMe.md)에서 설치 방법 확인
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
 # Contributing
-실용 중심 AI 개발자 양성 과정 씨에쓰리 산학프로젝트
+"실용 중심 AI 개발자 양성 과정" 씨에쓰리 산학프로젝트
 
 # License & Reference
 강화학습 모델 [QuantyLab](https://github.com/quantylab/rltrader)
