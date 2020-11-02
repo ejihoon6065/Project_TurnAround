@@ -120,7 +120,7 @@ pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 All features of the data are described below : <p>
 <p align="left">
     <a href="https://github.com/ejihoon6065/Project_TurnAround/blob/master/ReadMe_Data.md">  
-        <img alt="GitHub release" src="https://img.shields.io/github/release/huggingface/transformers.svg">
+        <img alt="Documentation" src="https://img.shields.io/website/http/huggingface.co/transformers/index.html.svg?down_color=red&down_message=offline&up_message=Data">
     </a>에서 모든 data features 확인
 </p>
 
