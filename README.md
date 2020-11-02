@@ -10,7 +10,7 @@
 - Language : Python 3.7 (Anaconda 3.7)
 
 # 환경설정 - Library
-## 1) 데이터 분석
+## 1) Data Analysis
 ```bash
 # (1) 행렬 연산
 pip install numpy
