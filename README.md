@@ -117,8 +117,8 @@ pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 - 정형 데이터 : [YahooFinance](https://finance.yahoo.com/), [investing.com](https://www.investing.com/), [krx](http://www.krx.co.kr/main/main.jsp)
 - 비정형 데이터 : [한국경제신문](https://www.hankyung.com/)
 
-## Data Format
-## 정형 데이터 (코스피)
+## Feature Description
+## 정형 데이터 (코스피 예측 모델)
 ## 1) 차트 데이터
 | 지표명                        | 표현                    |
 |-------------------------------|-------------------------|
