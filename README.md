@@ -65,7 +65,7 @@ pip install pykrx
 ```bash
 pip install ta-lib
 ```
-- 설치에 실패할 경우에는, [link](https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib)에서 버전에 맞는 파일을 다운로드해서 아래와 같이 설치함
+설치에 실패할 경우에는, [link](https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib)에서 버전에 맞는 파일을 다운로드해서 아래와 같이 설치함
 - Ex) python 3.7/64비트 버전 사용시
 ```bash
 pip install TA Lib‑0.4.19‑cp37‑cp37m‑win_amd64.whl
