@@ -12,30 +12,22 @@
 
 # 라이브러리
 ## 1. Data Analysis
-행렬 연산
 ```bash
+# 행렬 연산
 pip install numpy
-```
 
-데이터 분석
-```bash
+#데이터 분석
 pip install pandas
-```
 
-시각화
-```bash
+#시각화
 pip install matplotlib
 pip install seaborn
 pip install mplfinance
-```
 
-한국의 공휴일
-```bash
+# 한국의 공휴일
 pip install workalender
-```
 
-날짜
-```bash
+# 날짜
 pip install DateTime
 ```
 
