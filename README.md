@@ -101,7 +101,7 @@ pip install Keras=2.2.4
     <a href="https://github.com/ejihoon6065/Project_TurnAround/blob/master/NLP/ReadMe.md">  
         <img alt="Contributor Covenant" src="https://img.shields.io/badge/NLP%20-Mecab%20-ff69b4.svg">
     </a>
-</p>
+</p>에서 자세한 설치 방법 확인
 
 ```python
 # (1) Konlpy 설치
