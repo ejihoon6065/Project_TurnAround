@@ -10,7 +10,7 @@
 - Language : Python 3.7 (Anaconda 3.7)
 
 # 라이브러리
-## 1. Data Analysis
+## 1) 데이터 분석
 ```bash
 # 1) 행렬 연산
 pip install numpy
@@ -36,7 +36,7 @@ pip install DateTime
 pip install streamlit
 ```
 
-## 3. Financial data API
+## 3. Financial Data API
 1) Yahoo Finance API 설치
 ```bash
 pip install yfinance --upgrade --no-cache-dir
