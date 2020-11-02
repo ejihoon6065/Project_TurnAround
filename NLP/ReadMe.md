@@ -22,31 +22,28 @@
 
 # [mecab 설치]
 
-1. mecab-ko-msvc 설치하기
+1. mecab-ko-msvc 설치하기 (‘C 기반으로 만들어진 mecab’이 윈도우에서 실행될 수 있도록 하는 역할)
 ``` python
-- ‘C 기반으로 만들어진 mecab’이 윈도우에서 실행될 수 있도록 하는 역할
 (https://github.com/Pusnow/mecab-ko-msvc/releases/tag/release-0.9.2-msvc-3) 참고
 
- 1-2.
+ 1-1.
 윈도우 버전에 따라 32bit / 64bit 선택 다운로드
 
- 1-3.
+ 1-2.
 ‘C 드라이브’에 mecab폴더 만들기 => “C:/mecab”
 
- 1-4.
-‘1-2’에서 다운로드 받은 ‘mecab-ko-msvc-x64.zip’ 또는 ‘mecab-ko-msvc-x84.zip’ 압축 풀기
+ 1-3.
+‘1-1’에서 다운로드 받은 ‘mecab-ko-msvc-x64.zip’ 또는 ‘mecab-ko-msvc-x84.zip’ 압축 풀기
 ```
 
 2. mecab-ko-dic-msvc.zip 기본 사전 설치하기
-``` python
-2-1. https://github.com/Pusnow/mecab-ko-dic-msvc/releases/tag/mecab-ko-dic-2.1.1-20180720-msvc
-
-2-2. 
-사전 다운로드 ‘mecab-ko-dic-msvc.zip’
+``` python 
+ 2-1.사전 다운로드 ‘mecab-ko-dic-msvc.zip’
+ https://github.com/Pusnow/mecab-ko-dic-msvc/releases/tag/mecab-ko-dic-2.1.1-20180720-msvc
  
-2-3.
-앞서 ‘1-3’에서 만들었던 ‘C:/mecab’에 압축 해제
-* mecab 하위 폴더에 대강 파일들이 존재해야 함
+ 2-2.
+ 앞서 ‘1-3’에서 만들었던 ‘C:/mecab’에 압축 해제
+ * mecab 하위 폴더에 대강 파일들이 존재해야 함
 ```
 
 3. python wheel 설치하기
@@ -56,8 +53,7 @@ https://github.com/Pusnow/mecab-python-msvc/releases/tag/mecab_python-0.996_ko_0
 
  3-2. 
  파이썬 및 윈도우 버전에 맞는 whl 다운로드
- ex. 윈도우 64bit에 파이썬 3.7인 경우 
-‘mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl’ 다운로드
+ ex. 윈도우 64bit에 파이썬 3.7인 경우, ‘mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl’ 다운로드
 
  3-3.
 다운로드 받은 파일을 site-package 폴더 안에 옮기기
