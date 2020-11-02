@@ -140,7 +140,22 @@ pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 | 코스피 공매도 거래대금 합계   | kospi_short_sell_value  |
 
 ## 2) 투자지표
-
+| 구분     | 지수명(지표명)                      | 표현                     |
+|----------|-------------------------------------|--------------------------|
+| 대표지수 | 코스피 200 종가                     | kospi_200_Close          |
+|          | 코스피 200 중소형주 종가            | kospi_200_midsmall_Close |
+|          | 코스피 200 초대형제외 종가          | kospi_200_exbig_Close    |
+| 섹터지수 | 코스피 200 커뮤니케이션 서비스 종가 | kospi_200_comm_Close     |
+|          | 코스피 200 건설 종가                | kospi_200_const_Close    |
+|          | 코스피 200 중공업 종가              | kospi_200_heavy_Close    |
+|          | 코스피 200 철강/소재 종가           | kospi_200_steel_Close    |
+|          | 코스피 200 에너지/화학 종가         | kospi_200_energy_Close   |
+|          | 코스피 200 정보기술 종가            | kospi_200_info_Close     |
+|          | 코스피 200 금융 종가                | kospi_200_finance_Close  |
+|          | 코스피 200 생활소비재 종가          | kospi_200_life_Close     |
+|          | 코스피 200 경기소비재 종가          | kospi_200_economy_Close  |
+|          | 코스피 200 산업재 종가              | kospi_200_industy_Close  |
+|          | 코스피 200 헬스케어 종가            | kospi_200_health_Close   |
 
 ## 2) Data Analysis Module
 Prophet, AutoML, Natural Language Processing, Reinforcement Learning
