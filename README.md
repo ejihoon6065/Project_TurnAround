@@ -120,20 +120,22 @@ pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 ## Feature Description
 All features of the data are described below : [ReadMe_Data.md](https://github.com/ejihoon6065/Project_TurnAround/blob/master/ReadMe_Data.md)
 ## 정형 데이터 (코스피 예측 모델)
-- 1) 차트 데이터
-- 2) 투자지표
-- 3) 환율 데이터
-- 4) 원자재 데이터 (금값시세, 유가 등)
-- 5) 금리 데이터
-- 6) 글로벌 주가지수
+1) 차트 데이터
+2) 투자지표
+3) 환율 데이터
+4) 원자재 데이터 (금값시세, 유가 등)
+5) 금리 데이터
+6) 글로벌 주가지수
 
 ## 정형 데이터 (와이지엔터테인먼트종목 주가 예측 모델)
-- 1) 차트 데이터
-- 2) 와이지엔터테인먼트 투자지표
-- 3) 코스닥 주가지수 및 투자지표
+1) 차트 데이터
+2) 와이지엔터테인먼트 투자지표
+3) 코스닥 주가지수 및 투자지표
 
 ## 정형 데이터 (전처리 데이터)
-- 1) 보조지표 (기술적 분석)
+1) 보조지표 (기술적 분석)
+
+## 비정형 데이터 (코스피 예측 모델)
 
 ## 2) Data Analysis Module
 Prophet, AutoML, Natural Language Processing, Reinforcement Learning
