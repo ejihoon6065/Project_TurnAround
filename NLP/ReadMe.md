@@ -9,7 +9,7 @@
 
 1-3. J-Pype 설치(JAVA와 Python을 연결해주는 역할) 
 
-설치주소 : https://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype\ 
+설치주소 : https://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype \ 
 (해당주소에서 파이썬 버젼과 윈도우 OS비트수를 확인하여 다운로드)
 
 (ex. 파이썬 3.7, 윈도우64비트 -> cp37..amd64.whl 다운)\
