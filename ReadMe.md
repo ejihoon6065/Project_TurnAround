@@ -9,7 +9,7 @@
 - 데이터 분석 모듈 : [app.py](https://github.com/quantylab/rltrader)_AutoML, Prophet, NLP,  [app.py](https://github.com/quantylab/rltrader)_Reinforcement Learning
 - 실행 모듈 : [app.py](https://github.com/quantylab/rltrader)
 
-# 2. Environment Setup
+# 2. Environment Set-up
 가상환경에서 설치하는 것을 권장.
 
 가상환경 설치방법 : conda create -n [원하는 가상환경이름]
