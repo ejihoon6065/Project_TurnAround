@@ -158,8 +158,9 @@ streamlit run app.py
     <img src="https://github.com/ejihoon6065/Project_TurnAround/blob/master/image/tutorial_1.PNG" height="300px" width="600px">
 </p>
 - 분석 모델(또는 미리 학습된 모델)이 학습을 통해 분석 및 예측 결과를 도출합니다.
-
-![tutorial_2](https://github.com/ejihoon6065/Project_TurnAround/blob/master/image/tutorial_2.PNG)
+<p align="left">
+    <img src="https://github.com/ejihoon6065/Project_TurnAround/blob/master/image/tutorial_2.PNG" height="300px" width="600px">
+</p>
 
 # 5. Development Notes
 --------추후 작성--------
