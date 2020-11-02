@@ -101,7 +101,7 @@ pip install Keras=2.2.4
 <p align="Left">
     <a href="https://github.com/ejihoon6065/Project_TurnAround/blob/master/ReadMe_NLP.md">  
         <img alt="Contributor Covenant" src="https://img.shields.io/badge/NLP%20-Mecab%20-ff69b4.svg">
-    </a>에서 자세한 설치 방법 확인니다.
+    </a>에서 자세한 설치 방법 확인할 수 있습니다.
 </p>
 
 ```bash
@@ -123,7 +123,7 @@ All features of the data are described below : <p>
 <p align="left">
     <a href="https://github.com/ejihoon6065/Project_TurnAround/blob/master/ReadMe_Data.md">  
         <img alt="Documentation" src="https://img.shields.io/website/http/huggingface.co/transformers/index.html.svg?down_color=red&down_message=offline&up_message=Data">
-    </a>에서 모든 data features 확인
+    </a>에서 모든 data features 확인할 수 있습니다.
 </p>
 
 ## 코스피 예측 모델
