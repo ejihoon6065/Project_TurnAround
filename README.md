@@ -122,6 +122,12 @@ pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 ## 1) 차트 데이터
 | 지표명                        | 표현                    |
 |-------------------------------|-------------------------|
+| 년/월/일                      | Date                    |
+| 시가                          | Open                    |
+| 고가                          | High                    |
+| 저가                          | Low                     |
+| 종가                          | Close                   |
+| 거래량                        | Volume                  |
 | 코스피 기관 공매도 거래량     | kospi_inst_volume       |
 | 코스피 개인 공매도 거래량     | kospi_indi_volume       |
 | 코스피 외국인 공매도 거래량   | kospi_fore_volume       |
