@@ -115,7 +115,7 @@ pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 data sources : 정형/비정형
 
 data format : 정형/비정형
-- (1) 차트 데이터
+(1) 차트 데이터
 | 지표명     | 표현         |
 |------------|--------------|
 | 년/월/일   | Date         |
