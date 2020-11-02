@@ -8,7 +8,7 @@
 - IDE : PyCharm, Jupyter Notebook, Google Colaboratory
 - Language : Python 3.7 (Anaconda 3.7)
 
-# Library
+# 라이브러리
 ## 1. Data Analysis
 행렬 연산
 ```bash
@@ -63,7 +63,7 @@ pip install pykrx
 ```bash
 pip install ta-lib
 ```
-설치에 실패할 경우에는, [link](https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib)에서 버전에 맞는 파일을 다운로드해서 아래와 같이 설치함
+- 설치에 실패할 경우에는, [link](https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib)에서 버전에 맞는 파일을 다운로드해서 아래와 같이 설치함
 - Ex) python 3.7/64비트 버전 사용시
 ```bash
 pip install TA Lib‑0.4.19‑cp37‑cp37m‑win_amd64.whl
@@ -98,7 +98,7 @@ pip install Keras=2.2.4
 ```
 
 ## 7. Natural Language Processing
-[NLP.md](https://pip.pypa.io/en/stable/)에서 설치 방법 확인
+[NLP.md](https://github.com/ejihoon6065/Project_TurnAround/blob/master/NLP/ReadMe.md)에서 설치 방법 확인
 
 ```python
 import foobar
