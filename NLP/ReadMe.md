@@ -20,7 +20,7 @@
 ```
 
 
-## [mecab 설치]
+# [mecab 설치]
 
 1. mecab-ko-msvc 설치하기
 ``` python
