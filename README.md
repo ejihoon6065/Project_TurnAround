@@ -4,7 +4,7 @@
 - 멘티 : 이지훈👤, 김서정✌, 구병진🎶, 강민재😁, 이문형😎
 
 ### Recent contributors
-<img src="https://avatars0.githubusercontent.com/u/66652949?s=400&u=d01a3b5666e3fd08dff9c95012d98779be1be5b6&v=4" width="300" height="300">
+<img src="https://avatars0.githubusercontent.com/u/66652949?s=400&u=d01a3b5666e3fd08dff9c95012d98779be1be5b6&v=4" width="100" height="100">
 
 
 
