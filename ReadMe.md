@@ -7,7 +7,7 @@
 # 1. Model Structure
 - 데이터 수집 모듈 : [app.py](https://github.com/quantylab/rltrader)_정형 데이터,   [app.py](https://github.com/quantylab/rltrader)_비정형 데이터
 - 데이터 분석 모듈 : [app.py](https://github.com/quantylab/rltrader)_AutoML, Prophet, NLP,  [app.py](https://github.com/quantylab/rltrader)_Reinforcement Learning
-- 실행 모듈 : [app.py](https://github.com/quantylab/rltrader)
+- 실행 모듈 : [app.py](https://github.com/quantylab/rltrader) ---------추후 수정----------
 
 # 2. Environment Set-up
 가상환경에서 설치하는 것을 권장.
