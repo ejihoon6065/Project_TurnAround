@@ -30,13 +30,13 @@ pip install workalender
 pip install DateTime
 ```
 
-## 2. Web Application
+## 2) Web Application
 (1) streamlit 설치
 ```bash
 pip install streamlit
 ```
 
-## 3. Financial Data API
+## 3) Financial Data API
 (1) Yahoo Finance API 설치
 ```bash
 pip install yfinance --upgrade --no-cache-dir
@@ -62,7 +62,7 @@ pip install ta-lib
 pip install TA Lib‑0.4.19‑cp37‑cp37m‑win_amd64.whl
 ```
 
-## 4. Prophet
+## 4) Prophet
 (1) Prophet 설치
 ```bash
 conda install -c conda-forge fbprophet
@@ -71,13 +71,13 @@ pip install prophet
 pip install fbprophet
 ```
 
-## 5. AutoML
+## 5) AutoML
 (1) pycaret 설치
 ```bash
 pip install pycaret
 ```
 
-## 6. Reinforcement Learning
+## 6) Reinforcement Learning
 Anaconda 3.7+
 (1) TensorFlow 1.15.2 설치
 ```bash
@@ -89,7 +89,7 @@ pip install tensorflow==1.15.2
 pip install Keras=2.2.4
 ```
 
-## 7. Natural Language Processing
+## 7) Natural Language Processing
 [NLP.md](https://github.com/ejihoon6065/Project_TurnAround/blob/master/NLP/ReadMe.md)에서 설치 방법 확인
 
 ```python
