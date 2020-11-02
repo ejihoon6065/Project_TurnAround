@@ -102,7 +102,8 @@ pip install Keras=2.2.4
         <img alt="Contributor Covenant" src="https://img.shields.io/badge/NLP%20-Mecab%20-ff69b4.svg">
     </a>
 </p>
-```python
+
+```bash
 # (1) Konlpy 설치
 pip install JPype1‑0.6.3‑cp37‑cp37m‑win_amd64.whl
 
