@@ -28,7 +28,7 @@
 
 
 ## [mecab 설치]
-'''
+'''python
 1. mecab-ko-msvc 설치하기
 - ‘C 기반으로 만들어진 mecab’이 윈도우에서 실행될 수 있도록 하는 역할
 
