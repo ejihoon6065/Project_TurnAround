@@ -3,6 +3,11 @@
 - 멘토 : 정좌연🗽 PE 
 - 멘티 : 이지훈👤, 김서정✌, 구병진🎶, 강민재😁, 이문형😎
 
+### Recent contributors
+[![](https://avatars0.githubusercontent.com/u/66652949?s=400&u=d01a3b5666e3fd08dff9c95012d98779be1be5b6&v=4)](https://avatars3.githubusercontent.com/u/28860264?s=400&v=4)[![](https://avatars2.githubusercontent.com/u/61004279?s=400&v=4)](https://avatars0.githubusercontent.com/u/64593297?s=400&u=1a3075b1e929c8b637a3fd0d7814c44dd58c7e33&v=4)])
+
+
+
 # 모델 구성
 - 데이터 수집 모듈 : [app.py](https://github.com/quantylab/rltrader)_정형 데이터,   [app.py](https://github.com/quantylab/rltrader)_비정형 데이터
 - 데이터 분석 모듈 : [app.py](https://github.com/quantylab/rltrader)_AutoML, Prophet, NLP,  [app.py](https://github.com/quantylab/rltrader)_강화 학습
