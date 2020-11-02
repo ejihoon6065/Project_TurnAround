@@ -113,5 +113,5 @@ foobar.singularize('phenomena') # returns 'phenomenon'
 # Contributing
 실용 중심 AI 개발자 양성 과정 씨에쓰리 산학프로젝트
 
-# Reference
+# License & Reference
 강화학습 모델 [QuantyLab](https://github.com/quantylab/rltrader)
