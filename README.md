@@ -4,9 +4,6 @@
 - 멘티 : 이지훈👤, 김서정✌, 구병진🎶, 강민재😁, 이문형😎
 
 
-### Recent contributors
-[![](https://avatars0.githubusercontent.com/u/66652949?s=400&u=d01a3b5666e3fd08dff9c95012d98779be1be5b6&v=4){: width="100" height="100"}]
-
 # 모델 구성
 - 데이터 수집 모듈 : [app.py](https://github.com/quantylab/rltrader)_정형 데이터,   [app.py](https://github.com/quantylab/rltrader)_비정형 데이터
 - 데이터 분석 모듈 : [app.py](https://github.com/quantylab/rltrader)_AutoML, Prophet, NLP,  [app.py](https://github.com/quantylab/rltrader)_강화 학습
