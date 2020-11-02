@@ -110,7 +110,7 @@ pip install JPype1‑0.6.3‑cp37‑cp37m‑win_amd64.whl
 pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 ```
 # 4. Model Description
-## 1) Data Collection Module
+## 1) Data Collection Module : [DataCollectionModel.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/DataCollectionModel.py)
 
 ## Data Sources
 - 정형 데이터 : [YahooFinance](https://finance.yahoo.com/), [investing.com](https://www.investing.com/), [krx](http://www.krx.co.kr/main/main.jsp)
@@ -144,8 +144,7 @@ All features of the data are described below : <p>
 
 ## 2) Data Analysis Module
 Prophet, AutoML, Natural Language Processing, Reinforcement Learning
-## 3) Run Module
-[app.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/app.py)
+## 3) Run Module : [app.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/app.py)
 - cmd 창을 열어서, webtest 디렉토리로 path를 설정하고, [app.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/app.py)를 실행합니다.
 ```bash
 # app.py 실행
@@ -153,7 +152,12 @@ streamlit run app.py
 ```
 - 데이터를 자동으로 수집하기 때문에, 데이터를 수집하는 시간이 필요합니다.
 - 데이터가 수집되고 난 후에, 예측하고 싶은 Date, Target, Method을 입력합니다.
-![tutorial1](https://github.com/ejihoon6065/Project_TurnAround/blob/master/image/tutorial1.PNG)
+
+![tutorial_1](https://github.com/ejihoon6065/Project_TurnAround/blob/master/image/tutorial_1.PNG)
+
+- 분석 모델(또는 미리 학습된 모델)이 학습을 통해 분석 및 예측 결과를 도출합니다.
+
+![tutorial_2](https://github.com/ejihoon6065/Project_TurnAround/blob/master/image/tutorial_2.PNG)
 
 # 5. Development Notes
 
