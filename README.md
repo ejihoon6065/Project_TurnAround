@@ -5,7 +5,7 @@
 
 # 모델 구성
 - 데이터 수집 모듈 : [app.py](https://github.com/quantylab/rltrader)_정형 데이터,   [app.py](https://github.com/quantylab/rltrader)_비정형 데이터
-- 데이터 분석 모듈 : [app.py](https://github.com/quantylab/rltrader),  [app.py](https://github.com/quantylab/rltrader)_강화 학습
+- 데이터 분석 모듈 : [app.py](https://github.com/quantylab/rltrader)_AutoML, Prophet, NLP,  [app.py](https://github.com/quantylab/rltrader)_강화 학습
 - 실행 모듈 : [app.py](https://github.com/quantylab/rltrader)
 
 # 환경 설정
