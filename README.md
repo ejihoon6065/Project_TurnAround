@@ -114,11 +114,11 @@ pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 # 4. Model Description
 ## 1) Data Collection Module : [DataCollectionModel.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/DataCollectionModel.py)
 
-## Data Sources
+## (1) Data Sources
 - 정형 데이터 : [YahooFinance](https://finance.yahoo.com/), [investing.com](https://www.investing.com/), [krx](http://www.krx.co.kr/main/main.jsp)
 - 비정형 데이터 : [한국경제신문](https://www.hankyung.com/)
 
-## Feature Description
+## (2) Feature Description
 All features of the data are described below : <p>
 <p align="left">
     <a href="https://github.com/ejihoon6065/Project_TurnAround/blob/master/ReadMe_Data.md">  
@@ -126,7 +126,7 @@ All features of the data are described below : <p>
     </a>에서 모든 data features 확인
 </p>
 
-## 코스피 예측 모델 (정형 데이터)
+- 코스피 예측 모델 (정형 데이터)
 (1) 차트 데이터
 (2) 투자지표
 (3) 환율 데이터
@@ -134,19 +134,19 @@ All features of the data are described below : <p>
 (5) 금리 데이터
 (6) 글로벌 주가지수
 
-## 코스피 예측 모델 (비정형 데이터)
+- 코스피 예측 모델 (비정형 데이터)
 (1) 뉴스 크롤링 데이터
 --------추후 작성--------
 
-## 와이지엔터테인먼트종목 주가 예측 모델 (정형 데이터)
+- 와이지엔터테인먼트종목 주가 예측 모델 (정형 데이터)
 (1) 차트 데이터
 (2) 와이지엔터테인먼트 투자지표
 (3) 코스닥 주가지수 및 투자지표
 
-## 전처리 데이터 (정형 데이터)
+- 전처리 데이터 (정형 데이터)
 (1) 보조지표 (기술적 분석)
 
-## 전처리 데이터 (비정형 데이터)
+- 전처리 데이터 (비정형 데이터)
 (1) 자연어 전처리 데이터
 --------추후 작성--------
 
