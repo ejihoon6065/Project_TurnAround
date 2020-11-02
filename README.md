@@ -1,21 +1,20 @@
-# 자연어처리 기반의 주가분석 및 예측시스템
+# 프로젝트명 : 자연어처리 기반의 주가분석 및 예측시스템
 - 팀명 : Project_TurnAround
 - 멘토 : 정좌연🗽 PE 
 - 멘티 : 이지훈👤, 김서정✌, 구병진🎶, 강민재😁, 이문형😎
 
-
-# 모델 구성
+# 1. Model Structure
 - 데이터 수집 모듈 : [app.py](https://github.com/quantylab/rltrader)_정형 데이터,   [app.py](https://github.com/quantylab/rltrader)_비정형 데이터
 - 데이터 분석 모듈 : [app.py](https://github.com/quantylab/rltrader)_AutoML, Prophet, NLP,  [app.py](https://github.com/quantylab/rltrader)_강화 학습
 - 실행 모듈 : [app.py](https://github.com/quantylab/rltrader)
 
-# 환경 설정
+# 2. Environment Setup
 가상환경에서 설치하는 것을 권장함( 가상환경 설치방법 : conda create -n [원하는 가상환경이름] )
 - OS : Windows 10 x64
 - IDE : PyCharm, Jupyter Notebook, Google Colaboratory
 - Language : Python 3.7 (Anaconda 3.7)
 
-# 환경 설정 - Library
+# 3. Library Installation
 ## 1) Data Analysis
 ```bash
 # (1) 행렬 연산
@@ -111,6 +110,15 @@ pip install JPype1‑0.6.3‑cp37‑cp37m‑win_amd64.whl
 # (2) Mecab 설치
 pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 ```
+# 4. Model Description
+## 1) Data Collection Module
+data sources : 정형/비정형
+data format : 정형/비정형
+## 2) Data Analysis Module
+Prophet, AutoML, Natural Language Processing, Reinforcement Learning
+## 3) Run Module
+app.py
+# 5. Development Notes
 
 # Contributing
 실용 중심 AI 개발자 양성 과정 씨에쓰리 산학프로젝트
