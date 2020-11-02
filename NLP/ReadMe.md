@@ -12,8 +12,7 @@
 설치주소 : https://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype 
 (해당주소에서 파이썬 버젼과 윈도우 OS비트수를 확인하여 다운로드)
 
-(ex. 파이썬 3.7, 윈도우64비트 -> cp37..amd64.whl 다운)
-
+(ex. 파이썬 3.7, 윈도우64비트 -> cp37..amd64.whl 다운)\
 *파이썬 버전확인 : anaconda prompt 또는 CMD창에 “python --version” 이라 입력
 
 1-4. 프롬프트(CMD or Anaconda Prompt)에서 다운받은 파일의 경로로 이동하여 아래 커맨드를 통해 설치
