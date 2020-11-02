@@ -1,7 +1,7 @@
 # [konlpy 설치]
 
 ## 1.JAVA 설치
-``` python
+
 1-1. JDK를 1.7 버전 이상으로 설치 (설치시, 경로를 기억해둡니다) (https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
 1-2. 윈도우10기준, 제어판 > 시스템 및 보안 > 시스템 > 고급 시스템 설정 > 고급 > 환경 변수에서 새로 만들기를 누르고 JAVA_HOME이라는 환경변수 생성 (환경변수값은 jdk설치경로)
@@ -17,8 +17,8 @@
  pip install JPype1‑0.6.3‑cp37‑cp37m‑win_amd64.whl
 
 2. from konlpy.tag import [원하는 형태소분석기] (형태소분석기 : Hannanum, Kkma, Komoran, Okt, Mecab)
-*Mecab은 아래에 추가 설정 필요
-```
+   *Mecab은 아래에 추가 설정 필요
+
 
 
 ## [mecab 설치]
@@ -71,7 +71,6 @@ python 사용자의 경우 cmd창에서 site-package 폴더로 이동하여
 ```
 
 4. mecab 오류 발생 시
-
 참조 : https://www.microsoft.com/ko-kr/download/details.aspx?id=48145
 
 
