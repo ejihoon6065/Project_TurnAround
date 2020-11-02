@@ -5,7 +5,7 @@
 
 
 # 1. Model Structure
-- 데이터 수집 모듈 : [app.py](https://github.com/quantylab/rltrader)_정형 데이터,   [app.py](https://github.com/quantylab/rltrader)_비정형 데이터
+- 데이터 수집 모듈 : [app.py](https://github.com/quantylab/rltrader)_정형 데이터 (시계열 데이터),   [app.py](https://github.com/quantylab/rltrader)_비정형 데이터 (한국경제신문 뉴스 크롤링)
 - 데이터 분석 모듈 : [app.py](https://github.com/quantylab/rltrader)_AutoML, Prophet, NLP,  [app.py](https://github.com/quantylab/rltrader)_강화 학습
 - 실행 모듈 : [app.py](https://github.com/quantylab/rltrader)
 
