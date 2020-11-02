@@ -215,6 +215,53 @@ pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 
 ## 정형 데이터 (와이지엔터테인먼트종목 주가 예측 모델)
 ## 1) 차트 데이터
+| 지표명     | 표현         |
+|------------|--------------|
+| 시가       | Open         |
+| 고가       | High         |
+| 저가       | Low          |
+| 종가       | Close        |
+| 거래량     | Volume       |
+| 시가총액   | Market_Value |
+| 거래대금   | Value        |
+| 상장주식수 | Num_Stock    |
+
+## 2) 와이지엔터테인먼트 투자지표
+| 지표명                | 표현                 |
+|-----------------------|----------------------|
+| 와이지 공매도         | yg_short_sell        |
+| 와이지 잔고           | yg_balance           |
+| 와이지 공매도금액     | yg_short_sell_value  |
+| 와이지 잔고금액       | yg_balance_value     |
+| 와이지 공매도거래량   | yg_short_sell_volume |
+| 와이지 총거래량       | yg_total_volume      |
+| 와이지 공매도 비중    | yg_short_sell_rate   |
+| 와이지 공매도거래대금 | yg_short_sell_value  |
+
+## 3) 코스닥 주가지수 및 투자지표
+| 구분                 | 지수명(지표명)                 | 표현                     |
+|----------------------|--------------------------------|--------------------------|
+| 종합지수             | 코스닥 시가                    | kosdaq_Open              |
+|                      | 코스닥 고가                    | kosdaq_High              |
+|                      | 코스닥 저가                    | kosdaq_Low               |
+|                      | 코스닥 종가                    | kosdaq_Close             |
+|                      | 코스닥 거래량                  | kosdaq_Volume            |
+|                      | 코스닥 기관 공매도 거래량      | kosdaq_inst_volume       |
+|                      | 코스닥 개인 공매도 거래량      | kosdaq_indi_volume       |
+|                      | 코스닥 외국인 공매도 거래량    | kosdaq_fore_volume       |
+|                      | 코스닥 기타 공매도 거래량      | kosdaq_etc_volume        |
+|                      | 코스닥 공매도 거래량 합계      | kosdaq_short_sell_volume |
+|                      | 코스닥 기관 공매도 거래대금    | kosdaq_inst_value        |
+|                      | 코스닥 개인 공매도 거래대금    | kosdaq_indi_value        |
+|                      | 코스닥 외국인 공매도 거래대금  | kosdaq_fore_value        |
+|                      | 코스닥 기타 공매도 거래대금    | kosdaq_etc_value         |
+|                      | 코스닥 공매도 거래대금 합계    | kosdaq_short_sell_value  |
+| 대표지수             | 코스닥 150 종가                | kosdaq_150_Close         |
+| 섹터지수             | 코스닥 150 커뮤니케이션 서비스 | kosdaq_150_comm_Close    |
+| 산업별 지수          | 코스닥 오락, 문화              | kosdaq_enter_Close       |
+| 시가총액 규모별 지수 | 코스닥 대형주                  | kosdaq_large_Close       |
+| 소속부 지수          | 코스닥 우량기업부              | kosdaq_super_Close       |
+
 
 ## 정형 데이터 (전처리 데이터)
 ## 1) 보조지표 (기술적 분석)
