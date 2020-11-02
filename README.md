@@ -87,7 +87,7 @@ pip install pycaret
 ```
 
 ## 6. Reinforcement Learning
-- Anaconda 3.7+
+Anaconda 3.7+
 TensorFlow 1.15.2 설치
 ```bash
 pip install tensorflow==1.15.2
