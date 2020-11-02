@@ -141,8 +141,10 @@ All features of the data are described below : <p>
 1) 보조지표 (기술적 분석)
 
 ## 비정형 데이터 (코스피 예측 모델)
+--------추후 작성--------
 
 ## 2) Data Analysis Module
+--------추후 작성--------
 Prophet, AutoML, Natural Language Processing, Reinforcement Learning
 ## 3) Run Module : [app.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/app.py)
 - cmd 창을 열어서, webtest 디렉토리로 path를 설정하고, [app.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/app.py)를 실행합니다.
@@ -160,6 +162,7 @@ streamlit run app.py
 ![tutorial_2](https://github.com/ejihoon6065/Project_TurnAround/blob/master/image/tutorial_2.PNG)
 
 # 5. Development Notes
+--------추후 작성--------
 
 # Contributing
 실용 중심 AI 개발자 양성 과정 씨에쓰리 산학프로젝트
