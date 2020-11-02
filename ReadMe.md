@@ -10,7 +10,7 @@
 - 실행 모듈 : [app.py](https://github.com/quantylab/rltrader)
 
 # 2. Environment Setup
-가상환경에서 설치하는 것을 권장함.
+가상환경에서 설치하는 것을 권장.
 
 가상환경 설치방법 : conda create -n [원하는 가상환경이름]
 - OS : Windows 10 x64
@@ -64,7 +64,7 @@ pip install pykrx
 ```bash
 pip install ta-lib
 ```
-설치에 실패할 경우에는, [link](https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib)에서 버전에 맞는 파일을 다운로드해서 아래와 같이 설치함
+설치에 실패할 경우에는, [link](https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib)에서 버전에 맞는 파일을 다운로드해서 아래와 같이 설치합니다.
 - Ex) python 3.7/64비트 버전 사용시
 ```bash
 pip install TA Lib‑0.4.19‑cp37‑cp37m‑win_amd64.whl
