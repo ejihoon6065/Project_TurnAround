@@ -212,8 +212,32 @@ pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 | ESTX 50 종가          | estx_50_Close      |
 | EURONEXT 100 종가     | euronext_100_Close |
 
+
 ## 정형 데이터 (와이지엔터테인먼트종목 주가 예측 모델)
 ## 1) 차트 데이터
+
+## 정형 데이터 (전처리 데이터)
+## 1) 보조지표 (기술적 분석)
+| 지표명                                   | 파라미터 값            | 표현                                               |
+|------------------------------------------|------------------------|----------------------------------------------------|
+| 이평선 (이동평균, 지수평균, 가중평균)    | 5, 10, 20, 30, 60, 120 | 종가, 거래량에 적용<br>ma_xxx, ema_xxx, wma_xxx    |
+| 볼린저밴드                               | 20, 2                  | ubb, mbb, lbb                                      |
+| MACD (이동평균수렴확산)                  | 12, 26                 | macd, macdsignal9, macdhist                        |
+| RSI (상대강도지수)                       | 14                     | rsi                                                |
+| 스토캐스틱                               | 5, 3<br>14, 5          | slowk, slowd, fastk, fastd<br>fastk_rsi, fastd_rsi |
+| CCI (Commodity Channel Index)            | 14                     | cci                                                |
+| Williams’%R                              | 14                     | willR                                              |
+| parabolic SAR                            |                        | sar                                                |
+| ADX (Average Directional Movement Index) | 14                     | adx                                                |
+| plusDI (Plus Directional Indicator)      | 14                     | plus_di                                            |
+| plusDM (Plus Directional Movement)       | 14                     | plus_dm                                            |
+| ATR (Average True Range)                 | 14                     | atr                                                |
+| OBV (On Balance Volume)                  |                        | obv                                                |
+| Variance                                 | 5, 1                   | var                                                |
+| Three Line Strike                        |                        | line_str                                           |
+| Three Black Crows                        |                        | blk_crw                                            |
+| Evening Star                             |                        | evn_star                                           |
+| Abandoned Baby                           |                        | abn_baby                                           |
 
 ## 2) Data Analysis Module
 Prophet, AutoML, Natural Language Processing, Reinforcement Learning
