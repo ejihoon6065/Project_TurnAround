@@ -110,8 +110,8 @@ foobar.pluralize('goose') # returns 'geese'
 foobar.singularize('phenomena') # returns 'phenomenon'
 ```
 
-## Contributing
+# Contributing
 실용 중심 AI 개발자 양성 과정 씨에쓰리 산학프로젝트
 
-## Reference
+# Reference
 강화학습 모델 [QuantyLab](https://github.com/quantylab/rltrader)
