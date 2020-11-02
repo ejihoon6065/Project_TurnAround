@@ -165,8 +165,8 @@ streamlit run app.py
 # 5. Development Notes
 --------추후 작성--------
 
-# Contributing
+# 6. Contributing
 실용 중심 AI 개발자 양성 과정 씨에쓰리 산학프로젝트
 
-# License & Reference
+# 7. License & Reference
 강화학습 모델 [QuantyLab](https://github.com/quantylab/rltrader)
