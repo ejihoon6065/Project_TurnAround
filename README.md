@@ -8,14 +8,13 @@
 - 데이터 분석 모듈 : [app.py](https://github.com/quantylab/rltrader)
 - 실행 모듈 : [app.py](https://github.com/quantylab/rltrader)
 
-
-# 환경설정
+# 환경 설정
 가상환경에서 설치하는 것을 권장함( 가상환경 설치방법 : conda create -n [원하는 가상환경이름] )
 - OS : Windows 10 x64
 - IDE : PyCharm, Jupyter Notebook, Google Colaboratory
 - Language : Python 3.7 (Anaconda 3.7)
 
-# 환경설정 - Library
+# 환경 설정 - Library
 ## 1) Data Analysis
 ```bash
 # (1) 행렬 연산
@@ -96,13 +95,13 @@ pip install Keras=2.2.4
 ```
 
 ## 7) Natural Language Processing
+아래의 폴더에서 자세한 설치 방법 확인
 <p>
 <p align="Left">
     <a href="https://github.com/ejihoon6065/Project_TurnAround/blob/master/NLP/ReadMe.md">  
         <img alt="Contributor Covenant" src="https://img.shields.io/badge/NLP%20-Mecab%20-ff69b4.svg">
     </a>
-</p>에서 자세한 설치 방법 확인
-
+</p>
 ```python
 # (1) Konlpy 설치
 pip install JPype1‑0.6.3‑cp37‑cp37m‑win_amd64.whl
