@@ -5,8 +5,8 @@
 
 
 # 1. Model Structure
-- 데이터 수집 모듈 : [app.py](https://github.com/quantylab/rltrader)_정형 데이터 (시계열 데이터),   [app.py](https://github.com/quantylab/rltrader)_비정형 데이터 (한국경제신문 뉴스 크롤링)
-- 데이터 분석 모듈 : [app.py](https://github.com/quantylab/rltrader)_AutoML, Prophet, NLP,  [app.py](https://github.com/quantylab/rltrader)_강화 학습
+- 데이터 수집 모듈 : [app.py](https://github.com/quantylab/rltrader)_정형 데이터,   [app.py](https://github.com/quantylab/rltrader)_비정형 데이터
+- 데이터 분석 모듈 : [app.py](https://github.com/quantylab/rltrader)_AutoML, Prophet, NLP,  [app.py](https://github.com/quantylab/rltrader)_Reinforcement Learning
 - 실행 모듈 : [app.py](https://github.com/quantylab/rltrader)
 
 # 2. Environment Setup
@@ -112,7 +112,10 @@ pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 ```
 # 4. Model Description
 ## 1) Data Collection Module
-data sources : 정형/비정형
+
+## Data Sources
+정형 데이터 : [YahooFinance](https://finance.yahoo.com/), [investing.com](https://www.investing.com/), [krx](http://www.krx.co.kr/main/main.jsp)
+비정형 데이터 : [한국경제신문](https://www.hankyung.com/)
 
 data format : 정형/비정형
 ## (1) 정형 데이터
@@ -125,6 +128,9 @@ data format : 정형/비정형
 | 저가       | Low          |
 | 종가       | Close        |
 | 거래량     | Volume       |
+
+투자지표
+
 
 ## 2) Data Analysis Module
 Prophet, AutoML, Natural Language Processing, Reinforcement Learning
