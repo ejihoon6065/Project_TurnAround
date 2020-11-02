@@ -127,22 +127,22 @@ All features of the data are described below : <p>
 </p>
 
 ## 코스피 예측 모델
-- 정형 데이터 : (1) 차트 데이터, (2) 투자지표, (3) 환율 데이터, (4) 원자재 데이터 (금값시세, 유가 등), (5) 금리 데이터, (6) 글로벌 주가지수
-- 비정형 데이터 : (1) 뉴스 크롤링 데이터 --------추후 작성--------
+- 정형 데이터 : 차트 데이터, 투자지표, 환율 데이터, 원자재 데이터 (금값시세, 유가 등), 금리 데이터, 글로벌 주가지수
+- 비정형 데이터 : 뉴스 크롤링 데이터 --------추후 작성--------
 
 ## 와이지엔터테인먼트종목 주가 예측 모델
-- 정형 데이터 : (1) 차트 데이터, (2) 와이지엔터테인먼트 투자지표, (3) 코스닥 주가지수 및 투자지표
+- 정형 데이터 : 차트 데이터, 와이지엔터테인먼트 투자지표, 코스닥 주가지수 및 투자지표
 
 ## 전처리 데이터
-- 정형 데이터 :  (1) 보조지표 (기술적 분석)
-- 비정형 데이터 :  (1) 자연어 전처리 데이터 --------추후 작성--------
+- 정형 데이터 :  보조지표 (기술적 분석)
+- 비정형 데이터 :  자연어 전처리 데이터 --------추후 작성--------
 
 ## 2) Data Analysis Module
 --------추후 작성--------
 Prophet, AutoML, Natural Language Processing, Reinforcement Learning
 
 ## 3) Run Module : [app.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/app.py)
-cmd 창을 열어서, webtest 디렉토리로 path를 설정하고, [app.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/app.py)를 실행합니다.
+cmd 창을 열어서, [webtest](https://github.com/ejihoon6065/Project_TurnAround/tree/master/Main%20Code/webtest) 디렉토리로 path를 설정하고, [app.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/app.py)를 실행합니다.
 ```bash
 # app.py 실행
 streamlit run app.py
