@@ -28,7 +28,7 @@
 
 
 ## [mecab 설치]
-''' python
+``` python
 1. mecab-ko-msvc 설치하기
 - ‘C 기반으로 만들어진 mecab’이 윈도우에서 실행될 수 있도록 하는 역할
 
@@ -43,7 +43,7 @@
 
 1-4.
 ‘1-2’에서 다운로드 받은 ‘mecab-ko-msvc-x64.zip’ 또는 ‘mecab-ko-msvc-x84.zip’ 압축 풀기
-'''
+```
 
 2. mecab-ko-dic-msvc.zip 기본 사전 설치하기
  2-1. https://github.com/Pusnow/mecab-ko-dic-msvc/releases/tag/mecab-ko-dic-2.1.1-20180720-msvc
