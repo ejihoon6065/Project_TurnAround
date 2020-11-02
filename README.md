@@ -90,14 +90,14 @@ pip install Keras=2.2.4
 ```
 
 ## 7) Natural Language Processing
-[NLP.md](https://github.com/ejihoon6065/Project_TurnAround/blob/master/NLP/ReadMe.md)에서 설치 방법 확인
+[NLP.md](https://github.com/ejihoon6065/Project_TurnAround/blob/master/NLP/ReadMe.md)에서 자세한 설치 방법 확인
 
 ```python
-import foobar
+# (1) Konlpy 설치
+pip install JPype1‑0.6.3‑cp37‑cp37m‑win_amd64.whl
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+# (2) Mecab 설치
+pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 ```
 
 # Contributing
