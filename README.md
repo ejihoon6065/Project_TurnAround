@@ -91,9 +91,9 @@ pip install Keras=2.2.4
 
 ## 7) Natural Language Processing
 <p>
-<p align="center">
+<p align="Left">
     <a href="https://github.com/ejihoon6065/Project_TurnAround/blob/master/NLP/ReadMe.md">
-        <img alt="Contributor Covenant" src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg">
+        <img alt="Contributor Covenant" src="https://img.shields.io/badge/NLP%20Mecab-v2.0%20adopted-ff69b4.svg">
     </a>
 </p>
 
