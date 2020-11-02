@@ -1,6 +1,6 @@
 # [konlpy 설치]
 
-## 1.JAVA 설치
+## 1. JAVA 설치
 
 1-1. JDK를 1.7 버전 이상으로 설치 (설치시, 경로를 기억해둡니다) (https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
@@ -22,8 +22,6 @@
 
 (형태소분석기 : Hannanum, Kkma, Komoran, Okt, Mecab)
 *Mecab은 아래에 추가 설정 필요
-
-
 
 
 
