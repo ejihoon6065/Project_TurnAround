@@ -12,47 +12,47 @@
 # 라이브러리
 ## 1) 데이터 분석
 ```bash
-# 1) 행렬 연산
+# (1) 행렬 연산
 pip install numpy
 
-# 2) 데이터 분석
+# (2) 데이터 분석
 pip install pandas
 
-# 3) 시각화
+# (3) 시각화
 pip install matplotlib
 pip install seaborn
 pip install mplfinance
 
-# 4) 한국의 공휴일
+# (4) 한국의 공휴일
 pip install workalender
 
-# 5) 날짜
+# (5) 날짜
 pip install DateTime
 ```
 
 ## 2. Web Application
-1) streamlit 설치
+(1) streamlit 설치
 ```bash
 pip install streamlit
 ```
 
 ## 3. Financial Data API
-1) Yahoo Finance API 설치
+(1) Yahoo Finance API 설치
 ```bash
 pip install yfinance --upgrade --no-cache-dir
 ```
 
-2) investing.com API 설치
+(2) investing.com API 설치
 ```bash
 pip install investpy
 ```
 
-3) KRX API 설치
+(3) KRX API 설치
 ```bash
 pip install pykrx
 ```
 
-4) ta-lib 설치 - 기술적 분석 (보조지표)
+(4) ta-lib 설치 - 기술적 분석 (보조지표)
 ```bash
 pip install ta-lib
 ```
@@ -63,7 +63,7 @@ pip install TA Lib‑0.4.19‑cp37‑cp37m‑win_amd64.whl
 ```
 
 ## 4. Prophet
-1) Prophet 설치
+(1) Prophet 설치
 ```bash
 conda install -c conda-forge fbprophet
 pip install pystan
@@ -72,19 +72,19 @@ pip install fbprophet
 ```
 
 ## 5. AutoML
-1) pycaret 설치
+(1) pycaret 설치
 ```bash
 pip install pycaret
 ```
 
 ## 6. Reinforcement Learning
 Anaconda 3.7+
-1) TensorFlow 1.15.2 설치
+(1) TensorFlow 1.15.2 설치
 ```bash
 pip install tensorflow==1.15.2
 ```
 
-2) Keras 2.2.4 설치
+(2) Keras 2.2.4 설치
 ```bash
 pip install Keras=2.2.4
 ```
