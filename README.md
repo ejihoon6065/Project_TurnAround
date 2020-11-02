@@ -146,20 +146,22 @@ All features of the data are described below : <p>
 ## 2) Data Analysis Module
 --------추후 작성--------
 Prophet, AutoML, Natural Language Processing, Reinforcement Learning
+
 ## 3) Run Module : [app.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/app.py)
-- cmd 창을 열어서, webtest 디렉토리로 path를 설정하고, [app.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/app.py)를 실행합니다.
+cmd 창을 열어서, webtest 디렉토리로 path를 설정하고, [app.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/app.py)를 실행합니다.
 ```bash
 # app.py 실행
 streamlit run app.py
 ```
-- 데이터를 자동으로 수집하기 때문에, 데이터를 수집하는 시간이 필요합니다.
-- 데이터가 수집되고 난 후에, 예측하고 싶은 Date, Target, Method을 입력합니다.
-
+데이터를 자동으로 수집하기 때문에, 데이터를 수집하는 시간이 필요합니다.
+데이터가 수집되고 난 후에, 예측하고 싶은 Date, Target, Method을 입력합니다.
 
 <p align="left">
     <img src="https://github.com/ejihoon6065/Project_TurnAround/blob/master/image/tutorial_1.PNG" height="300px" width="600px">
 </p>
-- 분석 모델(또는 미리 학습된 모델)이 학습을 통해 분석 및 예측 결과를 도출합니다.
+
+분석 모델(또는 미리 학습된 모델)이 학습을 통해 분석 및 예측 결과를 도출합니다.
+
 <p align="left">
     <img src="https://github.com/ejihoon6065/Project_TurnAround/blob/master/image/tutorial_2.PNG" height="400px" width="600px">
 </p>
