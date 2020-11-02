@@ -11,7 +11,7 @@
 
 # 2. Environment Setup
 가상환경에서 설치하는 것을 권장함.
-/
+
 가상환경 설치방법 : conda create -n [원하는 가상환경이름]
 - OS : Windows 10 x64
 - IDE : PyCharm, Jupyter Notebook, Google Colaboratory
