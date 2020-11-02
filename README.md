@@ -144,7 +144,13 @@ All features of the data are described below : <p>
 ## 2) Data Analysis Module
 Prophet, AutoML, Natural Language Processing, Reinforcement Learning
 ## 3) Run Module
-app.py
+[app.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/app.py)
+- cmd 창을 열어서, webtest 디렉토리로 path를 설정하고, app.py를 실행합니다.
+```bash
+# app.py 실행
+streamlit run app.py
+```
+
 # 5. Development Notes
 
 # Contributing
