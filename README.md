@@ -111,7 +111,8 @@ pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 ```
 # 4. Model Description
 ## 1) Data Collection Module
-
+[DataCollectionModel.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/DataCollectionModel.py)
+- 정형 데이터 크롤링 모델
 ## Data Sources
 - 정형 데이터 : [YahooFinance](https://finance.yahoo.com/), [investing.com](https://www.investing.com/), [krx](http://www.krx.co.kr/main/main.jsp)
 - 비정형 데이터 : [한국경제신문](https://www.hankyung.com/)
