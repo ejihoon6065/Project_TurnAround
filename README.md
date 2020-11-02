@@ -4,8 +4,8 @@
 - 멘티 : 이지훈👤, 김서정✌, 구병진🎶, 강민재😁, 이문형😎
 
 # 모델 구성
-- 데이터 수집 모듈 : 정형 데이터[app.py](https://github.com/quantylab/rltrader), 비정형 데이터[app.py](https://github.com/quantylab/rltrader)
-- 데이터 분석 모듈 : [app.py](https://github.com/quantylab/rltrader), 강화 학습[app.py](https://github.com/quantylab/rltrader)
+- 데이터 수집 모듈 : [app.py](https://github.com/quantylab/rltrader)-정형 데이터, [app.py](https://github.com/quantylab/rltrader)-비정형 데이터
+- 데이터 분석 모듈 : [app.py](https://github.com/quantylab/rltrader), [app.py](https://github.com/quantylab/rltrader)-강화 학습
 - 실행 모듈 : [app.py](https://github.com/quantylab/rltrader)
 
 # 환경 설정
