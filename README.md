@@ -157,6 +157,29 @@ pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 |          | 코스피 200 산업재 종가              | kospi_200_industy_Close  |
 |          | 코스피 200 헬스케어 종가            | kospi_200_health_Close   |
 
+## 3) 환율 데이터
+| 지표명            | 표현                    |
+|-------------------|-------------------------|
+| 달러/원 환율 종가 | exchange_rate_usd_Close |
+| 유로/원 환율 종가 | exchange_rate_eur_Close |
+| 엔/원 환율 종가   | exchange_rate_jpy_Close |
+| 위안/원 환율 종가 | exchage_rate_cny_Close  |
+
+## 4) 원자재 데이터 (금값시세, 유가 등)
+| 지표명                   | 표현                    |
+|--------------------------|-------------------------|
+| comex 금 시세 종가       | comex_gold_Close        |
+| comex 미니 금 시세 종가  | comex_mini_gold_Close   |
+| comex 은 시세 종가       | comex_silver_Close      |
+| comex 미니 은 시세 종가  | comex_mini_silver_Close |
+| comex 동(구리) 시세 종가 | comex_copper_Close      |
+| 미국 플래티넘 시세 종가  | platinum_Close          |
+| 미국 팔라듐 시세 종가    | palladium_Close         |
+| WTI유 시세 종가          | crude_oil_Close         |
+| 가솔린 RBOB 시세 종가    | rbob_gasoline_Close     |
+| 미국 천연가스 시세 종가  | natural_gas_Close       |
+| 미국 난방유 시세 종가    | heating_oil_Close       |
+
 ## 2) Data Analysis Module
 Prophet, AutoML, Natural Language Processing, Reinforcement Learning
 ## 3) Run Module
