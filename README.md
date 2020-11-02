@@ -69,6 +69,8 @@ pip install ta-lib
 pip install TA Lib‑0.4.19‑cp37‑cp37m‑win_amd64.whl
 ```
 
+## 4. NLP
+[환경설정 안내](https://github.com/ejihoon6065/Project_TurnAround/tree/master/NLP)
 
 ## Usage
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
