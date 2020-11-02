@@ -111,7 +111,8 @@ pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 ```
 # 4. Model Description
 ## 1) Data Collection Module
-
+[DataCollectionModel.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/DataCollectionModel.py)
+- 정형 데이터 크롤링 모델
 ## Data Sources
 - 정형 데이터 : [YahooFinance](https://finance.yahoo.com/), [investing.com](https://www.investing.com/), [krx](http://www.krx.co.kr/main/main.jsp)
 - 비정형 데이터 : [한국경제신문](https://www.hankyung.com/)
@@ -120,7 +121,7 @@ pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 All features of the data are described below : <p>
 <p align="left">
     <a href="https://github.com/ejihoon6065/Project_TurnAround/blob/master/ReadMe_Data.md">  
-        <img alt="GitHub release" src="https://img.shields.io/github/release/huggingface/transformers.svg">
+        <img alt="Contributor Covenant" src="https://img.shields.io/badge/Data%20-set%20-ff69b4.svg">
     </a>에서 자세한 설치 방법 확인
 </p>
 ## 정형 데이터 (코스피 예측 모델)
@@ -144,7 +145,11 @@ All features of the data are described below : <p>
 ## 2) Data Analysis Module
 Prophet, AutoML, Natural Language Processing, Reinforcement Learning
 ## 3) Run Module
-app.py
+[app.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/app.py)
+- cmd 창을 열어서, webtest로 path를 설정하고, 아래와 같이 app.py를 실행합니다.
+```bash
+streamlit run app.py
+```
 # 5. Development Notes
 
 # Contributing
