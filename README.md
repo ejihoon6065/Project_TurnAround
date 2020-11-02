@@ -9,7 +9,7 @@
 - IDE : PyCharm, Jupyter Notebook, Google Colaboratory
 - Language : Python 3.7 (Anaconda 3.7)
 
-# 라이브러리
+# 환경설정 - Library
 ## 1) 데이터 분석
 ```bash
 # (1) 행렬 연산
