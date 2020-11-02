@@ -1,5 +1,3 @@
-
-
 # [konlpy 설치]
 
 ## 1.JAVA 설치
@@ -82,3 +80,18 @@ python 사용자의 경우 cmd창에서 site-package 폴더로 이동하여
 4. mecab 오류 발생 시
 
 참조 : https://www.microsoft.com/ko-kr/download/details.aspx?id=48145
+
+
+
+``` python
+>>> from transformers import pipeline
+
+# Allocate a pipeline for question-answering
+>>> question_answerer = pipeline('question-answering')
+>>> question_answerer({
+...     'question': 'What is the name of the repository ?',
+...     'context': 'Pipeline have been included in the huggingface/transformers repository'
+... })
+{'score': 0.5135612454720828, 'start': 35, 'end': 59, 'answer': 'huggingface/transformers'}
+
+```
