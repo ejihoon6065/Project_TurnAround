@@ -10,7 +10,6 @@
 - 실행 모듈 : [app.py](https://github.com/quantylab/rltrader) ---------추후 수정----------
 <br/>
   
-  
 # 2. Environment Set-up
 가상환경에서 설치하는 것을 권장합니다.
 <br/>
@@ -55,7 +54,7 @@ pip install DateTime
 ```bash
 pip install streamlit
 ``` 
-<br/> <br/>
+<br/>
 
 # 3) Financial Data API
 
