@@ -105,7 +105,7 @@
 
  1-3. !pip install hanja --user
  
- 1-4. 
+ 1-4. [실행코드]
  import hanja
  from hanja import hangul
  hanja.translate('국民','substitution')
