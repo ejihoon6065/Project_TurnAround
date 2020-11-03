@@ -63,16 +63,23 @@
 ``` python
  4-1. 사전 추가
  C:/mecab/user-dic 폴더에서 csv파일 3개를 확인할 수 있음
+ 
  이때, 명사는 nnp에, 인명은 person에, 지명은 place 파일에 각각 입력. 단, 제공하는 형식에 따를 것
+ 
  사전의 형식은 표층형/0/0/0/품사태그/의미분류/종성유무/읽기/타입/첫번째품사/마지막품사/표현 으로 구성
 
  4-2. 사전 컴파일
  윈도우 환경에서 Powershell을 활용하여 관리자 모드로 진행
+ 
  파워쉘이 구동되면 C:/mecab 폴더로 이동후(절대주소) tool 폴더에 있는 add-userdic-win.ps1을 실행
  단, 에러가 발생될 수 있음. 즉, UnauthorizedAccess 에러가 발생할 수 있는데 이때는 스크립트 실행 제한을 풀어줘야 함
- 제한이 걸려있는지 확인하기 위해서 ExecutionPolicy를 입력하면 'Restricted'라고 나올 것이다.
- 이 경우, 다시 ExecutionPolicy를 실행하면 'Unrestricted'라고 나오는 것을 확인할 수 있다.
+ 
+ 제한이 걸려있는지 확인하기 위해서 ExecutionPolicy를 입력하면 'Restricted'라고 나옴
+
+ 이 경우, 다시 ExecutionPolicy를 실행하면 'Unrestricted'라고 나오는 것을 확인할 수 있음
+ 
  이제 tool 폴더에 있는 add-user-dic-win.ps1을 실행
+ 
  'done!'이라는 것이 나타나면 사전 컴파일이 완료된 것임
  
  참조 : https://joyhong.tistory.com/128
