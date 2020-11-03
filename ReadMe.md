@@ -50,7 +50,8 @@ pip install DateTime
 ```bash
 pip install streamlit
 ``` 
-<br/>  
+<br/> 
+
 # 3) Financial Data API
 <br/>
 
