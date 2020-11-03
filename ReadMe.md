@@ -222,6 +222,7 @@ streamlit run app.py
   
   
 (3) 데이터가 수집되고 난 후에, 예측하고 싶은 Date, Target, Method을 입력합니다.
+<br/> <br/> 
   
 <p align="left">
     <img src="https://github.com/ejihoon6065/Project_TurnAround/blob/master/image/tutorial_1.PNG" height="300px" width="600px">
