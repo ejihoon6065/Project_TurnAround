@@ -23,8 +23,6 @@
 <br/>
 
 # 3. Library Installation
-<br/>
-
 ## 1) Data Analysis
 <br/>
 ```bash
@@ -51,8 +49,7 @@ pip install DateTime
 (1) streamlit 설치
 ```bash
 pip install streamlit
-```
-  
+``` 
 <br/>  
 ## 3) Financial Data API
 <br/>
@@ -62,21 +59,18 @@ pip install streamlit
 ```bash
 pip install yfinance --upgrade --no-cache-dir
 ```
-
 <br/>
 (2) investing.com API 설치
 <br/>
 ```bash
 pip install investpy
 ```
-
 <br/>
 (3) KRX API 설치
 <br/>
 ```bash
 pip install pykrx
 ```
-
 <br/>  
 (4) ta-lib 설치 - 기술적 분석 (보조지표)
 <br/>
@@ -90,10 +84,8 @@ pip install ta-lib
 ```bash
 pip install TA Lib‑0.4.19‑cp37‑cp37m‑win_amd64.whl
 ```
-  
 <br/>  
 ## 4) Prophet
-  
 <br/>  
 (1) Prophet 설치
 <br/>
@@ -103,20 +95,16 @@ pip install pystan
 pip install prophet
 pip install fbprophet
 ```
-  
 <br/>  
 ## 5) AutoML
-  
 <br/>  
 (1) pycaret 설치
 <br/>
 ```bash
 pip install pycaret
 ```
-  
 <br/>  
 ## 6) Reinforcement Learning
-  
 <br/>  
 (1) TensorFlow 1.15.2 설치
 ```bash
@@ -127,7 +115,6 @@ pip install tensorflow==1.15.2
 ```bash
 pip install Keras=2.2.4
 ```
-  
 <br/>  
 ## 7) Natural Language Processing
 <br/>  
@@ -140,19 +127,16 @@ pip install Keras=2.2.4
 <br/>
 ```bash
 
-
 # (1) Konlpy 설치
 pip install JPype1‑0.6.3‑cp37‑cp37m‑win_amd64.whl
 
 # (2) Mecab 설치
 pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 ```
-
 <br/>
 # 4. Model Description
 <br/>  
 ## 1) Data Collection Module : [DataCollectionModel.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/DataCollectionModel.py)
-  
 <br/>  
 ## (1) Data Sources
 <br/>  
@@ -168,31 +152,26 @@ All features of the data are described below : <p>
         <img alt="Documentation" src="https://img.shields.io/website/http/huggingface.co/transformers/index.html.svg?down_color=red&down_message=offline&up_message=Data">
     </a>에서 모든 data features 확인할 수 있습니다.
 </p>
-  
 <br/>  
 ## 코스피 예측 모델
   
 - 정형 데이터 : 차트 데이터, 투자지표, 환율 데이터, 원자재 데이터 (금값시세, 유가 등), 금리 데이터, 글로벌 주가지수
 - 비정형 데이터 : 뉴스 크롤링 데이터 --------추후 작성--------
-  
 <br/>  
 ## 와이지엔터테인먼트종목 주가 예측 모델
   
 - 정형 데이터 : 차트 데이터, 와이지엔터테인먼트 투자지표, 코스닥 주가지수 및 투자지표
 - 블랙핑크 앨범 발매일
-  
 <br/>  
 ## 전처리 데이터
 
 - 정형 데이터 :  보조지표 (기술적 분석)
 - 비정형 데이터 :  자연어 전처리 데이터 --------추후 작성--------
-  
 <br/>  
 ## 2) Data Analysis Module
   
 --------추후 작성--------
 Prophet, AutoML, Natural Language Processing, Reinforcement Learning
-  
 <br/>  
 ## 3) Run Module : [app.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/app.py)
   
@@ -219,17 +198,14 @@ streamlit run app.py
 <p align="left">
     <img src="https://github.com/ejihoon6065/Project_TurnAround/blob/master/image/tutorial_2.PNG" height="400px" width="600px">
 </p>
-  
 <br/>  
 # 5. Development Notes
   
 --------추후 작성--------
-  
 <br/>  
 # 6. Contributing
   
 실용 중심 AI 개발자 양성 과정 씨에쓰리 산학프로젝트
-  
 <br/>  
 # 7. License & Reference
   
