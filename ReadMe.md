@@ -23,35 +23,35 @@
 <br/>
 
 # 3. Library Installation
-## 1) Data Analysis
+# 1) Data Analysis
 <br/>
 ```bash
-# (1) 행렬 연산
+## (1) 행렬 연산
 pip install numpy
 
-# (2) 데이터 분석
+## (2) 데이터 분석
 pip install pandas
 
-# (3) 시각화
+## (3) 시각화
 pip install matplotlib
 pip install seaborn
 pip install mplfinance
 
-# (4) 한국의 공휴일
+## (4) 한국의 공휴일
 pip install workalendar
 
-# (5) 날짜
+## (5) 날짜
 pip install DateTime
 ```
 <br/>
-## 2) Web Application
+# 2) Web Application
 <br/>
 (1) streamlit 설치
 ```bash
 pip install streamlit
 ``` 
 <br/>  
-## 3) Financial Data API
+# 3) Financial Data API
 <br/>
 
 (1) Yahoo Finance API 설치
@@ -85,7 +85,7 @@ pip install ta-lib
 pip install TA Lib‑0.4.19‑cp37‑cp37m‑win_amd64.whl
 ```
 <br/>  
-## 4) Prophet
+# 4) Prophet
 <br/>  
 (1) Prophet 설치
 <br/>
@@ -96,7 +96,7 @@ pip install prophet
 pip install fbprophet
 ```
 <br/>  
-## 5) AutoML
+# 5) AutoML
 <br/>  
 (1) pycaret 설치
 <br/>
@@ -104,7 +104,7 @@ pip install fbprophet
 pip install pycaret
 ```
 <br/>  
-## 6) Reinforcement Learning
+# 6) Reinforcement Learning
 <br/>  
 (1) TensorFlow 1.15.2 설치
 ```bash
@@ -116,7 +116,7 @@ pip install tensorflow==1.15.2
 pip install Keras=2.2.4
 ```
 <br/>  
-## 7) Natural Language Processing
+# 7) Natural Language Processing
 <br/>  
 <p>
 <p align="Left">
@@ -136,7 +136,7 @@ pip install mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl
 <br/>
 # 4. Model Description
 <br/>  
-## 1) Data Collection Module : [DataCollectionModel.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/DataCollectionModel.py)
+# 1) Data Collection Module : [DataCollectionModel.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/DataCollectionModel.py)
 <br/>  
 ## (1) Data Sources
 <br/>  
@@ -168,12 +168,12 @@ All features of the data are described below : <p>
 - 정형 데이터 :  보조지표 (기술적 분석)
 - 비정형 데이터 :  자연어 전처리 데이터 --------추후 작성--------
 <br/>  
-## 2) Data Analysis Module
+# 2) Data Analysis Module
   
 --------추후 작성--------
 Prophet, AutoML, Natural Language Processing, Reinforcement Learning
 <br/>  
-## 3) Run Module : [app.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/app.py)
+# 3) Run Module : [app.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/app.py)
   
   
 (1) cmd 창을 열어서, [webtest](https://github.com/ejihoon6065/Project_TurnAround/tree/master/Main%20Code/webtest) 디렉토리로 path를 설정하고, [app.py](https://github.com/ejihoon6065/Project_TurnAround/blob/master/Main%20Code/webtest/app.py)를 실행합니다.
