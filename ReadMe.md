@@ -46,8 +46,11 @@ pip install workalendar
 pip install DateTime
 ```
 <br/>
+
 # 2) Web Application
+
 <br/>
+
 (1) streamlit 설치
 ```bash
 pip install streamlit
@@ -55,6 +58,7 @@ pip install streamlit
 <br/> 
 
 # 3) Financial Data API
+
 <br/>
 
 (1) Yahoo Finance API 설치
