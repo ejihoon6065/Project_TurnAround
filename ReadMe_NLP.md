@@ -94,4 +94,20 @@
 5. mecab 오류 발생 시
 참조 : https://www.microsoft.com/ko-kr/download/details.aspx?id=48145
 
+# 3) Hanja 설치
 
+``` python
+(https://m.blog.naver.com/PostView.nhn?blogId=myincizor&logNo=221629214491&proxyReferer=https:%2F%2Fwww.google.com%2F) 참고
+
+ 1-1. !pip install --ignore-installed PyYAML --user
+
+ 1-2. !pip install hanja -> 만일 import 오류 발생 시 1-3으로
+
+ 1-3. !pip install hanja --user
+ 
+ 1-4. 
+ import hanja
+ from hanja import hangul
+ hanja.translate('국民','substitution')
+ 
+```
