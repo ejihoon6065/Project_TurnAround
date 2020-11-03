@@ -99,13 +99,23 @@
 ``` python
 (https://m.blog.naver.com/PostView.nhn?blogId=myincizor&logNo=221629214491&proxyReferer=https:%2F%2Fwww.google.com%2F) 참고
 
- 1-1. !pip install --ignore-installed PyYAML --user
+ 1-1. !pip install hanja
+ [오류 발생]
+ ERROR: Cannot uninstall 'PyYAML'. It is a distutils installed project and thus we cannot accurately determine which files belong to it which would lead to only a partial uninstall.
 
- 1-2. !pip install hanja -> 만일 import 오류 발생 시 1-3으로
-
+ 1-2. !pip install --ignore-installed PyYAML --user
+ [오류 발생]
+ ERROR: Consider using the `--user` option or check the permissions.
+ 
  1-3. !pip install hanja --user
  
- 1-4. [실행코드]
+ 1-4. 1-3 에서 오류 발생 시 고려
+ python -m pip install --upgrade pip
+ 
+ 1-5. 1-3 에서 오류 발생 시 고려
+ pip install hanja --use-ufeature=2020-resolver
+ 
+ 1-6. [실행코드]
  import hanja
  from hanja import hangul
  hanja.translate('국民','substitution')
