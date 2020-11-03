@@ -32,7 +32,7 @@ pip install seaborn
 pip install mplfinance
 
 # (4) 한국의 공휴일
-pip install workalender
+pip install workalendar
 
 # (5) 날짜
 pip install DateTime
