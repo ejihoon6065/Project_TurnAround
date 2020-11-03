@@ -50,7 +50,6 @@ pip install DateTime
 # 2) Web Application
 
 <br/>
-
 (1) streamlit 설치
 ```bash
 pip install streamlit
@@ -58,75 +57,61 @@ pip install streamlit
 <br/> 
 
 # 3) Financial Data API
-
 <br/>
 
 (1) Yahoo Finance API 설치
 
 <br/>
-
 ```bash
 pip install yfinance --upgrade --no-cache-dir
 ```
-
 <br/>
 
 (2) investing.com API 설치
 
 <br/>
-
 ```bash
 pip install investpy
 ```
-
 <br/>
 
 (3) KRX API 설치
 
 <br/>
-
 ```bash
 pip install pykrx
 ```
-
 <br/>  
 
 (4) ta-lib 설치 - 기술적 분석 (보조지표)
 
 <br/>
-
 ```bash
 pip install ta-lib
 ```
-
 <br/>
 
 설치에 실패할 경우에는, [link](https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib)에서 버전에 맞는 파일을 다운로드해서 아래와 같이 설치합니다.
 - Ex) python 3.7/64비트 버전 사용시
 
 <br/>
-
 ```bash
 pip install TA Lib‑0.4.19‑cp37‑cp37m‑win_amd64.whl
 ```
-
 <br/>  
 
 # 4) Prophet
-
 <br/>  
 
 (1) Prophet 설치
 
 <br/>
-
 ```bash
 conda install -c conda-forge fbprophet
 pip install pystan
 pip install prophet
 pip install fbprophet
 ```
-
 <br/>  
 
 # 5) AutoML
@@ -134,13 +119,11 @@ pip install fbprophet
 <br/>  
 
 (1) pycaret 설치
-
 <br/>
 
 ```bash
 pip install pycaret
 ```
-
 <br/>  
 
 # 6) Reinforcement Learning
