@@ -99,6 +99,7 @@
 1) anaconda prompt에서 가상환경 activate 
 
 2) pip3 install mecab-python3
+# 설치가 되기를 기도한다.
 ```
 
 
