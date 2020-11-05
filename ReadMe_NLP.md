@@ -94,6 +94,10 @@
 5. mecab 오류 발생 시
 참조 : https://www.microsoft.com/ko-kr/download/details.aspx?id=48145
 
+6. mecab 가상환경에서 설치시, pip3 install mecab-python3
+
+
+
 # 3) Hanja 설치
 
 ``` python
