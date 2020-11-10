@@ -4,9 +4,9 @@
 -is_col : 기사제목상, 칼럼기사인 경우이면 1, 아니면 0
 -label_rev : 코스피지수와 관계없는 기사들을 직접 2로 라벨링
 
-Uni_Gram_By_Mecab_Top1000.xlsx : Uni-Gram에서 TF 내림차순으로 정렬하여 Top1000개의 단어들을 추출
+Uni_Gram_By_Mecab_Top1000.xlsx : Uni-Gram에서 TF 내림차순으로 정렬하여 Top1000개의 단어들을 추출한 결과물
 
-Bi_Gram_By_Mecab_Top1000.xlsx : Bi-Gram에서 TF 내림차순으로 정렬하여 Top1000개의 단어들을 추출
+Bi_Gram_By_Mecab_Top1000.xlsx : Bi-Gram에서 TF 내림차순으로 정렬하여 Top1000개의 단어들을 추출한 결과물
 
-Bigram_Words.xlsx : Bi-Gram에서 각 단어들의 BIgram단어들과 각각의 TF를 한개의 row로 나타냄
+Bigram_Words.xlsx : Bi-Gram에서 각 단어들의 BIgram단어들과 각각의 TF를 한개의 row로 나타낸 결과물
 
