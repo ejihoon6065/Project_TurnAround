@@ -1,6 +1,7 @@
 # 한국경제 신문기사에서 가장 많이 나온 Unigram단어와 Bigram단어를 추출
 
-## 뉴스데이터.xlsx : 한경뉴스의 1997.10.21 ~ 2020.06.15 기사제목  
+## 뉴스데이터.xlsx : 
+한경뉴스의 1997.10.21 ~ 2020.06.15 기사제목  
 
 ## 뉴스데이터의 Feature 설명 : 
 ```python
@@ -11,9 +12,12 @@
 -label_rev : 코스피지수와 관계없는 기사들을 직접 2로 라벨링
 ```
 
-## Uni_Gram_By_Mecab_Top1000.xlsx : Uni-Gram에서 TF 내림차순으로 정렬하여 Top1000개의 단어들을 추출한 결과물
+## Uni_Gram_By_Mecab_Top1000.xlsx : 
+Uni-Gram에서 TF 내림차순으로 정렬하여 Top1000개의 단어들을 추출한 결과물
 
-## Bi_Gram_By_Mecab_Top1000.xlsx : Bi-Gram에서 TF 내림차순으로 정렬하여 Top1000개의 단어들을 추출한 결과물
+## Bi_Gram_By_Mecab_Top1000.xlsx : 
+Bi-Gram에서 TF 내림차순으로 정렬하여 Top1000개의 단어들을 추출한 결과물
 
-## Bigram_Words.xlsx : Bi-Gram에서 각 단어들의 BIgram단어들과 각각의 TF를 한개의 row로 나타낸 결과물
+## Bigram_Words.xlsx : 
+Bi-Gram에서 각 단어들의 BIgram단어들과 각각의 TF를 한개의 row로 나타낸 결과물
 
