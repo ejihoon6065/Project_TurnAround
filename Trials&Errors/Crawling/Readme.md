@@ -1,3 +1,4 @@
+# Trial한 내용 : 
 1) 기사본문을 크롤링하여 StopWord(은,는,이,가 등)와 OKT를 이용해 전처리
 2) 각 row의 날짜 전날의 kospi지수 등락율에 따라 labeling하여 긍,부정 labeling
 3) 각 row 기사제목의 단어들을 Flatten 
